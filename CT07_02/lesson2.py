@@ -30,8 +30,8 @@ import time
 study = 60.0 *float(input("how many minutes do you want to study? "))
 while 0.0< study:
     print(study)
-    time.sleep(5)
-    study-=5.0
+    time.sleep(1)
+    study-=1.0
     print("")
     
 print("∞ minutes to go")
