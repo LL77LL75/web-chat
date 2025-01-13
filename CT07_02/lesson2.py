@@ -9,7 +9,7 @@ while answer1 != 8:
 else:
     SCORe+=1
     answer2 = int(input("how many months are there in a year? "))
-    while answer2 != 12:
+    while (answer2 != 12):
         answer2 = int(input("how many months are there in a year? "))
     else:
         SCORe+=1
