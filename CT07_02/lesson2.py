@@ -7,7 +7,8 @@ a = 1
 while (answer1 != "8") and not(answer1 == "skip"):
     answer1 = input("how many legs does an octopus have? ")
 else:
-    SCORe+=1
+    if answer1 != "skip":
+        score
     answer2 = input("how many months are there in a year? ")
     while (answer2 != "12") and not(answer2 == "skip"):
         answer2 = input("how many months are there in a year? ")
