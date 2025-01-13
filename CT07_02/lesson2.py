@@ -4,7 +4,7 @@ answer1 = input("how many legs does an octopus have? ")
 # while 1>0:
 #     a = a+1
 #     print(a)
-while (str(answer1) != 8) or not(answer1 == "skip"):
+while (int(answer1) != 8) or not(answer1 == "skip"):
     answer1 = input("how many legs does an octopus have? ")
 else:
     SCORe+=1
