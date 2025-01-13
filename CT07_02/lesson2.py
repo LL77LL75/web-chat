@@ -12,7 +12,9 @@ else:
     while answer2 != 12:
         answer2 = int(input("how many months are there in a year? "))
     else:
+        SCORe+=1
         answer3 = int(input("how letters are there in the alpabet? "))
         while answer3 != 26:
             answer3 = int(input("how letters are there in the alpabet? "))
+SCORe+=1
 print("u have at least 1 iq")
