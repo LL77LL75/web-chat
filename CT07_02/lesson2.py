@@ -1,4 +1,4 @@
-SCORE = 0
+SCORe = 0
 answer1 = int(input("how many legs does an octopus have? "))
 # a = 1
 # while 1>0:
