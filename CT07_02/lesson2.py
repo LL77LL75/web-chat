@@ -1,2 +1,2 @@
-print("Hello from lesson 2")
-
+a = 1
+8
