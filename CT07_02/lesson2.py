@@ -14,7 +14,7 @@ else:
     else:
         SCORe+=1
         answer3 = input("how letters are there in the alpabet? ")
-        while (int(answer3) != 26) or not(answer3 == "skip"):
+        while (answer3 != "26") or not(answer3 == "skip"):
             answer3 = input("how letters are there in the alpabet? ")
 SCORe+=1
 print("u have at least 1 iq")
