@@ -1,4 +1,4 @@
-if 1 == 1:
+if 1 == 3:
     SCORe = 0
     answer1 = input("how many legs does an octopus have? ")
     a = 1
