@@ -1,9 +1,9 @@
 SCORe = 0
 answer1 = input("how many legs does an octopus have? ")
-# a = 1
-# while 1>0:
-#     a = a+1
-#     print(a)
+a = 1
+while 1>0:
+    a = a+1
+    print(a)
 while (answer1 != "8") or not(answer1 == "skip"):
     answer1 = input("how many legs does an octopus have? ")
 else:
