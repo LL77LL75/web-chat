@@ -22,4 +22,3 @@ answer1 = input("what comes once in a minute twice in a moment but never in a th
 # print("your score is " + str(SCORe))
 while answer1 !="the letter m":
     answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
-    
