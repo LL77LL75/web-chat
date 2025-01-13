@@ -1,4 +1,3 @@
-answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
 # SCORe = 0
 # answer1 = input("how many legs does an octopus have? ")
 # a = 1
