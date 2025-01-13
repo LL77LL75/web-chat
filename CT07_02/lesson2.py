@@ -1,7 +1,7 @@
 answer1 = int(input("how many legs does an octopus have? "))
 a = 1
 while 1>0:
-    a+=1
+    a = a+1
     print(a)
 while answer1 != 8:
     answer1 = int(input("how many legs does an octopus have? "))
