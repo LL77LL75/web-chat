@@ -32,5 +32,6 @@ while 0.0< study:
     print(study)
     time.sleep(5)
     study-=5.0
+    print("GO")
     
 print("∞ minutes to go")
