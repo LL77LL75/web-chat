@@ -27,7 +27,7 @@
 #     # while answer1 !="the letter m":
 #     #     answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
 import time
-study = int(input("how many minutes do you want to study"))
+study = int(input("how many minutes do you want to study? "))
 while 0< study:
     time.sleep(60)
     study-=1
