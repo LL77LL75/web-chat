@@ -10,7 +10,7 @@ else:
     SCORe+=1
     answer2 = input("how many months are there in a year? ")
     while (answer2 != "12") and not(answer2 == "skip"):
-        answer2 = int(input("how many months are there in a year? "))
+        answer2 = input("how many months are there in a year? ")
     else:
         SCORe+=1
         answer3 = input("how letters are there in the alpabet? ")
