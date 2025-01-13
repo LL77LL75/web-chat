@@ -31,3 +31,4 @@ study = int(input("how many minutes do you want to study"))
 while 0< study:
     time.sleep(60)
     study-=1
+print("")
