@@ -18,7 +18,8 @@ else:
         answer3 = input("how letters are there in the alpabet? ")
         while (answer3 != "26") and not(answer3 == "skip"):
             answer3 = input("how letters are there in the alpabet? ")
-SCORe+=1
+if answer3 != "skip":
+    SCORe+=1
 print("u have at least 1 iq")
 print("your score is " + str(SCORe))
 # answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
