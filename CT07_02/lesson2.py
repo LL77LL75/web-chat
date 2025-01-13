@@ -1,2 +1,2 @@
 a = 1
-8
+input("how many legs does an octopus have?")
