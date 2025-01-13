@@ -7,6 +7,7 @@ answer1 = int(input("how many legs does an octopus have? "))
 while answer1 != 8:
     answer1 = int(input("how many legs does an octopus have? "))
 else:
+    SCORe+=1
     answer2 = int(input("how many months are there in a year? "))
     while answer2 != 12:
         answer2 = int(input("how many months are there in a year? "))
