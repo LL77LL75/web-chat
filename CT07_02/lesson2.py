@@ -28,4 +28,4 @@
 #     #     answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
 import time
 study = int(input("how many minutes do you want to study"))
-time.sleep(study)
+time.sleep(study**60)
