@@ -18,4 +18,4 @@ else:
             answer3 = int(input("how letters are there in the alpabet? "))
 SCORe+=1
 print("u have at least 1 iq")
-print( str(SCORe))
+print("your score is" + str(SCORe))
