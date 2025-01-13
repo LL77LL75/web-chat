@@ -19,5 +19,6 @@
 # SCORe+=1
 # print("u have at least 1 iq")
 # print("your score is " + str(SCORe))
+answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
 while answer1 !="the letter m":
     answer1 = input("what comes once in a minute twice in a moment but never in a thousand years? ")
