@@ -25,4 +25,4 @@ while answer != "end":
     answer = input("where u want to go ")
 else:
     for i in goto:
-        print("i woul like to go to " + goto[i])
+        print("i woul like to go to " + i )
