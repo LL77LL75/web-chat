@@ -36,6 +36,7 @@ while 0.0< study:
         print("Go Go Go!")
     
 print("∞ minutes to go")
+a=0
 while True :
     a+=1
     print(a)
