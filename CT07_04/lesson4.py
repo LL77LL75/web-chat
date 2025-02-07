@@ -24,4 +24,4 @@ while answer != "end":
     goto.append(answer)
     answer = input("where u want to go ")
 else:
-    print()
+    print("i ")
