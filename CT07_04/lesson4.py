@@ -47,4 +47,4 @@
 # 3. else, say "Sorry, please go next door, bye."
 want = []
 while answer != "end":
-    want.append
+    want.append(answer)
