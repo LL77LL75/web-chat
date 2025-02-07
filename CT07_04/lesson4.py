@@ -47,5 +47,5 @@
 # 3. else, say "Sorry, please go next door, bye."
 want = [pizza,]
 answer = input("wat u want to eat")
-while answer != "end":
-    want.append(answer)
+while answer != "end" and answer in want:
+    print()
