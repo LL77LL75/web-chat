@@ -1,6 +1,6 @@
 a = 11
 import time
-for i in range(10):
+while a < :
     time.sleep(1)
     a-=1
     print(a)
