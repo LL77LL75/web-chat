@@ -18,13 +18,13 @@
 #    "I would like to visit Germany"
 #    "I would like to visit Japan"
 #    ... 
-goto = []
-answer = input("where u want to go ")
-while answer != "end":
-    goto.append(answer)
-    answer = input("where u want to go ")
-for i in goto:
-    print("i woul like to go to " + i )
+# goto = []
+# answer = input("where u want to go ")
+# while answer != "end":
+#     goto.append(answer)
+#     answer = input("where u want to go ")
+# for i in goto:
+#     print("i woul like to go to " + i )
 
 ## Task 4: Restaurant Menu
 # **Task 4a**:
@@ -45,3 +45,5 @@ for i in goto:
 # 2. If the food is in the list, say "Yes we sell that,
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
+while answer != end:
+    want.append
