@@ -21,4 +21,5 @@
 goto = []
 answer = input("where u want to go ")
 while answer != "end":
-    goto.append
+    goto.append()
+    
