@@ -25,3 +25,23 @@ while answer != "end":
     answer = input("where u want to go ")
 for i in goto:
     print("i woul like to go to " + i )
+
+## Task 4: Restaurant Menu
+# **Task 4a**:
+# Write a program to create a menu for a new
+# restaurant
+
+# 1. Using a while loop, ask the user (the restaurant manager)
+#    to input food items
+# 2. Add each food item into the menu list
+# 3. End the loop when the user types "end"
+
+# **Task 4b**:
+# Based on the list created by the restaurant manager, do
+# the following:
+
+# 1. Imagine a customer has come in, ask the customer what
+#    would they like to eat?
+# 2. If the food is in the list, say "Yes we sell that,
+#    please have a seat"
+# 3. else, say "Sorry, please go next door, bye."
