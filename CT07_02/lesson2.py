@@ -36,7 +36,7 @@ while 0.0< study:
         print("Go Go Go!")
     
 print("∞ minutes to go")
-a=0
+a=1
 while True :
-    a = a
+    a = a*10
     print(a)
