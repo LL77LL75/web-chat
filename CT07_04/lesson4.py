@@ -45,7 +45,7 @@
 # 2. If the food is in the list, say "Yes we sell that,
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
-want = ["pizza",]
+want = ["pizza","french fries","bananas"]
 answer = input("wat u want to eat")
 while answer != "end" and answer in want:
     print("We sell that.Now take a seat in the definitely not eletric chair")
