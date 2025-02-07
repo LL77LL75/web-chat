@@ -45,5 +45,6 @@
 # 2. If the food is in the list, say "Yes we sell that,
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
+
 while answer != end:
     want.append
