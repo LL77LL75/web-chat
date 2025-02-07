@@ -51,6 +51,7 @@ if input("password ") == "blank":
         word = i[0].upper() + i[1:len(i)]
         i = word
 a = input("what would you like? ")
+
 for i in food:
     if a == i :
         print("yes, we sell that.Please have a seat.")
