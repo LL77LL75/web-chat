@@ -11,5 +11,5 @@ print("happy New year!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 # **Task 1a**:
 # Create a list of 8 planets in the solar system.
-Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune,
 
