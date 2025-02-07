@@ -46,6 +46,6 @@
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
 want = []
-answer = input
+answer = input("wat u want to eat")
 while answer != "end":
     want.append(answer)
