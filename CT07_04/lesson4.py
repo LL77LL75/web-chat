@@ -50,4 +50,4 @@ answer = input("wat u want to eat")
 while answer != "end" and answer in want:
     print("We sell that.Now take a seat in the definitely not eletric chair")
 else:
-    print
+    print("sorry we don't sell that and ")
