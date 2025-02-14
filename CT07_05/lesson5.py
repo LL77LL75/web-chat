@@ -29,10 +29,10 @@
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
-# b = []
-# for i in range(100):
-#     b.append(random.randint(1,1000))
-# print(b)
+b = []
+for i in range(100):
+    b.append(random.randint(1,1000))
+print(b)
 
 ## Task 2: List of 100 unique numbers
 # The program you have created from the previous task will
