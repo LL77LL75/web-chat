@@ -60,4 +60,5 @@ print(b)
 # 3. Using the 'sum()' and 'len()' function, calculate the
 #    average score.
 
-print(max())
+print(max(b))
+print(min(b))
