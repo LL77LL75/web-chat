@@ -101,13 +101,13 @@
 #    (pokemon with the higher power will always win)
 
 # Sample data (Copy + paste the below code):
-# pokemons = [
-#     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
-#     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
-#     "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
-#     "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
-#     "Electabuzz"
-# ]
+pokemons = [
+    "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
+    "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+    "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
+    "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+    "Electabuzz"
+]
 
 # powers = [
 #     55, 84, 49, 48, 45,
