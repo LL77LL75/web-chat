@@ -77,13 +77,41 @@
 # #    name
 
 # # Sample Data (Copy + paste the below code):
-namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
-            "Sophia", "Lucas", "Mia", "Aiden"
-            ]
-heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
+# namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
+#             "Sophia", "Lucas", "Mia", "Aiden"
+#             ]
+# heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 # # Hint:
 # # use .index("value of something in the list") to find the index
 # # of an item
-print(namelist[heightlist.index(max(heightlist))])
-print(namelist[heightlist.index(min(heightlist))])
+# print(namelist[heightlist.index(max(heightlist))])
+# print(namelist[heightlist.index(min(heightlist))])
+
+## Task 5: Pokemon, I choose you!
+# Task: You are given 2 lists,
+# **pokemons** contains a list of pokemons
+# **powers** contains a list of the corresponding pokemon's
+#            powers
+
+# 1. Choose 2 random pokemons from the list
+# 2. Compare the powers of the 2 pokemons
+# 3. Calculate who is the winner of the fight between these 2
+#    pokemons
+#    (pokemon with the higher power will always win)
+
+# Sample data (Copy + paste the below code):
+# pokemons = [
+#     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
+#     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+#     "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
+#     "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+#     "Electabuzz"
+# ]
+
+# powers = [
+#     55, 84, 49, 48, 45,
+#     45, 52, 55, 110, 110,
+#     85, 65, 134, 130, 110,
+#     50, 125, 65, 110, 83
+# ]
