@@ -62,4 +62,4 @@ print(b)
 
 print(max(b))
 print(min(b))
-print(())
+print(sum(b)/len(b))
