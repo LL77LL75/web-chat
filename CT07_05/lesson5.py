@@ -8,7 +8,7 @@ foods = ["pizza","chips","ice cream","banana"]
 # **Recap 1b**:
 # You no longer like to eat the 3rd item on your list,
 # delete it
-foods.pop(3)
+foods.pop(2)
 # **Recap 1c**:
 # Add 1 more item into your list
 foods.append("poop")
