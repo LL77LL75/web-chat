@@ -15,4 +15,4 @@ foods.append("poop")
 # **Recap 1d**:
 # Write a for loop to say all the food items in your list
 for i in range(len(foods)):
-    print(foods)
+    print(foods[i])
