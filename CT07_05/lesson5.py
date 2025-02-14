@@ -32,5 +32,4 @@ import random
 b = []
 for i in range(1000):
     b.append(random.randint(1,1000))
-for i in b:
-    print(i)
+print(b)
