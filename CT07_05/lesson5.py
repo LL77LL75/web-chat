@@ -3,19 +3,29 @@
 ## Recap 1: Favourite Food List
 # **Recap 1a**:
 # Create a list of 5 foods that you like to eat
-foods = ["pizza","chips","ice cream","banana"]
+# foods = ["pizza","chips","ice cream","banana"]
 
 # **Recap 1b**:
 # You no longer like to eat the 3rd item on your list,
 # delete it
-foods.pop(2)
+# foods.pop(2)
 # **Recap 1c**:
 # Add 1 more item into your list
-foods.append("poop")
+# foods.append("poop")
 # **Recap 1d**:
 # Write a for loop to say all the food items in your list
 # for i in range(len(foods)):
 #     print(foods[i])
 
-for food in foods:
-    print(food)
+# for food in foods:
+#     print(food)
+
+## Task 1: List of 100 numbers 
+# You are preparing for an upcoming lucky draw session at your
+# school. You have been tasked to create a program that will pick
+# 100 lucky winners.
+
+# By importing the 'random' library and using 'random.randint()',
+# create a program to create 100 random numbers in a list
+# 1. Use a loop to add 100 random numbers into your list.
+# 2. Each number added range between 1 to 1000
