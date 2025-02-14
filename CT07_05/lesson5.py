@@ -29,6 +29,7 @@
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
+import random
 b = []
 randint = random.randint(1,1000)
 while len(b) < 101:
