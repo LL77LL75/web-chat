@@ -85,8 +85,7 @@
 # # Hint:
 # # use .index("value of something in the list") to find the index
 # # of an item
-# print(namelist[heightlist.index(max(heightlist))])
-# print(namelist[heightlist.index(min(heightlist))])
+
 
 ## Task 5: Pokemon, I choose you!
 # Task: You are given 2 lists,
@@ -109,9 +108,11 @@ pokemons = [
     "Electabuzz"
 ]
 
-# powers = [
-#     55, 84, 49, 48, 45,
-#     45, 52, 55, 110, 110,
-#     85, 65, 134, 130, 110,
-#     50, 125, 65, 110, 83
-# ]
+powers = [
+    55, 84, 49, 48, 45,
+    45, 52, 55, 110, 110,
+    85, 65, 134, 130, 110,
+    50, 125, 65, 110, 83
+]
+print([.index(max(heightlist))])
+print([.index(min(heightlist))])
