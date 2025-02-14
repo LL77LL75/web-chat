@@ -45,5 +45,3 @@
 # 2. Each number added range between 1 to 1000
 # 3. Ensure that all the numbers are unique
 # 4. Print the list of 100 unique numbers created
-wh
-# Hint: YOU WILL NEED A WHILE LOOP
