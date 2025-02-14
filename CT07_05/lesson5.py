@@ -33,7 +33,7 @@ b = []
 randint = random.randint(1,1000)
 while len(b) < 101:
     if randint not in b:
-        randint = random.randint(1,1000)
+        b.append()
 print(b)
 
 ## Task 2: List of 100 unique numbers
