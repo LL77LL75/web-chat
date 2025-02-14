@@ -31,4 +31,4 @@ import random
 # 2. Each number added range between 1 to 1000
 b = []
 for i in range(1000):
-    b.append()
+    b.append(random.randint)
