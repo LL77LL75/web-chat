@@ -24,7 +24,7 @@
 # You are preparing for an upcoming lucky draw session at your
 # school. You have been tasked to create a program that will pick
 # 100 lucky winners.
-
+import random
 # By importing the 'random' library and using 'random.randint()',
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
