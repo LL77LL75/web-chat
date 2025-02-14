@@ -18,6 +18,5 @@ foods.append("poop")
 #     print(foods[i])
 
 a=0
-while a<len(foods)-1:
+while a<len(foods)+1:
     a+=1
-    
