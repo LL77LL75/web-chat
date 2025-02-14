@@ -24,12 +24,26 @@
 # You are preparing for an upcoming lucky draw session at your
 # school. You have been tasked to create a program that will pick
 # 100 lucky winners.
-import random
+# import random
 # By importing the 'random' library and using 'random.randint()',
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
-b = []
-for i in range(100):
-    b.append(random.randint(1,1000))
-print(b)
+# b = []
+# for i in range(100):
+#     b.append(random.randint(1,1000))
+# print(b)
+
+## Task 2: List of 100 unique numbers
+# The program you have created from the previous task will
+# sometimes generate duplicate numbers. Modify your program so
+# that the 100 numbers generated are all unique.
+
+# Modify your program from the previous task to create 100 random
+# unique numbers in a list.
+# 1. Use a loop to add 100 random numbers into your list.
+# 2. Each number added range between 1 to 1000
+# 3. Ensure that all the numbers are unique
+# 4. Print the list of 100 unique numbers created
+wh
+# Hint: YOU WILL NEED A WHILE LOOP
