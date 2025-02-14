@@ -24,18 +24,18 @@
 # You are preparing for an upcoming lucky draw session at your
 # school. You have been tasked to create a program that will pick
 # 100 lucky winners.
-import random
+# import random
 # By importing the 'random' library and using 'random.randint()',
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
-b = []
-randint = random.randint(1,1000)
-while len(b) < 101:
-    if randint not in b:
-        b.append(randint)
-    randint = random.randint(1,1000)
-print(b)
+# b = []
+# randint = random.randint(1,1000)
+# while len(b) < 101:
+#     if randint not in b:
+#         b.append(randint)
+#     randint = random.randint(1,1000)
+# print(b)
 
 ## Task 2: List of 100 unique numbers
 # The program you have created from the previous task will
@@ -48,3 +48,15 @@ print(b)
 # 2. Each number added range between 1 to 1000
 # 3. Ensure that all the numbers are unique
 # 4. Print the list of 100 unique numbers created
+
+## Task 3: Score Taker
+# Imagine the list that you have created in Task 2 represent the
+# score of a 100 students.
+
+# Find the maximum, minimum and average from the list.
+
+# 1. Using the 'max()' function, find the maximum score.
+# 2. Using the 'min()' function, find the minimum score.
+# 3. Using the 'sum()' and 'len()' function, calculate the
+#    average score.
+
