@@ -3,7 +3,7 @@
 ## Recap 1: Favourite Food List
 # **Recap 1a**:
 # Create a list of 5 foods that you like to eat
-foods = ["pizza","chips",]
+foods = ["pizza","chips","ice cream"]
 
 
 # **Recap 1b**:
