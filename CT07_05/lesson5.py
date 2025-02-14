@@ -18,4 +18,4 @@ foods.append("poop")
 #     print(foods[i])
 
 for food in foods:
-    print()
+    print(food)
