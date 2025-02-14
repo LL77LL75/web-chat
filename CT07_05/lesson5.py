@@ -85,4 +85,4 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 # # Hint:
 # # use .index("value of something in the list") to find the index
 # # of an item
-print(namelist[max(heightlist)])
+print(namelist[heightlist[max]])
