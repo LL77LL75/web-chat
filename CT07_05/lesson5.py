@@ -30,8 +30,10 @@
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
 b = []
-while len(b) <101:
-    b.append(random.randint(1,1000))
+randint = random.randint(1,1000)
+while len(b) < 101:
+    if randint not in b:
+        randint = random.randint(1,1000)
 print(b)
 
 ## Task 2: List of 100 unique numbers
