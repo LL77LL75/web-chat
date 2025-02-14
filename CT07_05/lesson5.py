@@ -12,6 +12,6 @@ foods = ["pizza","chips","ice cream","banana"]
 foods.pop(foods[3])
 # **Recap 1c**:
 # Add 1 more item into your list
-
+foods.append()
 # **Recap 1d**:
 # Write a for loop to say all the food items in your list
