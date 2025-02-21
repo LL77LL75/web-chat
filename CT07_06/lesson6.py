@@ -74,8 +74,11 @@ students = [
     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
+# for student in students:
+#     print(str(student[0]) +","+str(student[1]))
+
 for student in students:
-    print(str(student[0]) +","+str(student[1]))
+    name, gender = student
 ### the above is a nested list. Study and discuss it before we
 ### move on.
 
