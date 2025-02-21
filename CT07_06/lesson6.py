@@ -12,8 +12,8 @@
 # 3. Ensure that all the numbers are unique
 import random
 winners = []
-while len(winners) < 1000:
-    item = random.randint(1,1000000000000000)
+while len(winners) < 1000000000000000:
+    item = random.randint(1,10000000000000000)
     if item not in winners:
         winners.append(item)
 print(winners)
