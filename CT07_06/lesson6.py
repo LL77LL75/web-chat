@@ -108,6 +108,6 @@ for s in students:
     if s[2] == "F":
         girls.append(s[0])
     else:
-        boys.append(s)
+        boys.append(s[0])
 print(girls)
 print(boys)
