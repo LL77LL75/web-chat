@@ -17,3 +17,15 @@ while len(winners) < 100:
     if item not in winners:
         winners.append(item)
 print(winners)
+
+# **Recap 1b**:
+# You have been asked to provide some statistics based on the
+# list of numbers generated.
+
+# 1. Using max(), find the highest number from the list
+# 2. Using min(), find the lowest number from the list
+# 3. Using sum() and len(), find the average from the list
+# 4. By importing the 'random' library and using random.choice(),
+#    print out a random number from the list.
+# 5. Using index(), print out the index of the printed random
+#    number.
