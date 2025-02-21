@@ -13,7 +13,7 @@
 import random
 winners = []
 while len(winners) < 101:
-    item = random.randint(1,100)
+    item = random.randint(1,1000)
     if item not in winners:
         winners.append(item)
 print(winners)
