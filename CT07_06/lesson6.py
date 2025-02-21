@@ -112,7 +112,9 @@ girls = []
 for student in students:
     name , gender , height= student 
     if gender == "F":
-        girls.append()
+        girls.append(name)
+    else:
+        
 # for s in students:
 #     if s[1] == "F":
 #         girls.append(s[0])
