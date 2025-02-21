@@ -58,4 +58,4 @@ contacts.append(contact1)
 contacts.append(contact2)
 contacts.append(contact3)
 for i in contacts:
-    print(contacts[i])
+    print(i)
