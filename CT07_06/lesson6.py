@@ -50,13 +50,36 @@
 # 2. Write a nested loop to loop through each contact and print
 #    the details for each contact
 
-contacts = []
-contact1 = ["John", 98453126, "john@gmail.com"]
-contact2 = ["Adam", 93029102, "adam@gmail.com"]
-contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
-contacts.append(contact1)
-contacts.append(contact2)
-contacts.append(contact3)
-for contact in contacts:
-    for detail in contact:
-        print(detail)
+# contacts = []
+# contact1 = ["John", 98453126, "john@gmail.com"]
+# contact2 = ["Adam", 93029102, "adam@gmail.com"]
+# contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
+# contacts.append(contact1)
+# contacts.append(contact2)
+# contacts.append(contact3)
+# for contact in contacts:
+#     for detail in contact:
+#         print(detail)
+
+
+## Task 2: Student List
+# You have been given a 2d list of students from a class
+# consisting each student's name and their gender:
+
+# Sample Code (Copy + Paste the below code):
+students = [
+    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
+    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
+    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
+    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
+    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
+]
+
+### the above is a nested list. Study and discuss it before we
+### move on.
+
+# 1. Write a for loop to print out the names of each student and
+#    the gender beside.
+   
+#    e.g. Olivia F
+#         Noah M
