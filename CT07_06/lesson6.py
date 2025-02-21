@@ -102,10 +102,11 @@ for student in students:
 # 5. Print out how many boys and girls there are
 boys = []
 girls = []
-for s in students:
-    if s[2] == "F":
-        girls.append(s[0])
-    else:
+for student in students:
+    for s in student:
+        if s[2] == "F":
+            girls.append(s[0])
+        else:
         boys.append(s[0])
 print(girls)
 print(boys)
