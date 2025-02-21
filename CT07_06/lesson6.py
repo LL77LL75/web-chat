@@ -79,7 +79,7 @@ students = [
 
 for student in students:
     name, gender = student
-    print(student)
+    print(name,gender)
 ### the above is a nested list. Study and discuss it before we
 ### move on.
 
