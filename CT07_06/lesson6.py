@@ -110,7 +110,7 @@ students = [
 boys = []
 girls = []
 for student in students:
-    name , gender , _= student 
+    name , gender , height= student 
     print(name)
 # for s in students:
 #     if s[1] == "F":
