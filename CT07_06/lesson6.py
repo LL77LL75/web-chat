@@ -68,11 +68,11 @@
 
 # Sample Code (Copy + Paste the below code):
 students = [
-    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
-    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
-    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
-    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
-    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
+    ["Olivia", "F", 67], ["Noah", "M", 82], ["Emma", "F", 91],
+    ["Liam", "M", 55], ["Ava", "F", 73], ["Ethan", "M", 88],
+    ["Sophia", "F", 92], ["Lucas", "M", 74], ["Mia", "F", 64],
+    ["Aiden", "M", 79], ["Isabella", "F", 85], ["Jackson", "M", 68],
+    ["Amelia", "F", 77], ["Logan", "M", 94], ["Lily", "F", 80]
 ]
 # for student in students:
 #     print(str(student[0]) +","+str(student[1]))
