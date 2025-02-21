@@ -107,14 +107,14 @@ students = [
     ["Aiden", "M", 79], ["Isabella", "F", 85], ["Jackson", "M", 68],
     ["Amelia", "F", 77], ["Logan", "M", 94], ["Lily", "F", 80]
 ]
-for student in students:
-    name 
 boys = []
 girls = []
-for s in students:
-    if s[1] == "F":
-        girls.append(s[0])
-    else:
-        boys.append(s[0])
+for student in students:
+    name,geder 
+# for s in students:
+#     if s[1] == "F":
+#         girls.append(s[0])
+#     else:
+#         boys.append(s[0])
 print(girls)
 print(boys)
