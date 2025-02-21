@@ -30,4 +30,5 @@ print(winners)
 # 5. Using index(), print out the index of the printed random
 #    number.
 print("the max is " + str(max(winners)))
-print("the min is " + str(max(winners)))
+print("the min is " + str(min(winners)))
+print("the max is " + str(max(winners)))
