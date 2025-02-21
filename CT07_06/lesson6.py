@@ -100,6 +100,8 @@ for student in students:
 # 3. Write a for loop and name all the boys
 # 4. Write a for loop and name all the girls
 # 5. Print out how many boys and girls there are
+for students in students:
+    _,
 boys = []
 girls = []
 for s in students:
