@@ -58,5 +58,5 @@ contacts.append(contact1)
 contacts.append(contact2)
 contacts.append(contact3)
 for contact in contacts:
-    for data in contact:
-        print(a)
+    for detail in contact:
+        print(detail)
