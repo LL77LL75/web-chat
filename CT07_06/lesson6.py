@@ -8,8 +8,8 @@
 # Task: Create a program to create 100 random unique numbers in
 # a list
 # 1. Use a loop to add 100 random numbers into your list.
-# 2. Each number added range between 1 to 1000
-# 3. Ensure that all the numbers are unique
+# 2. each number added range betwen 1 to 1000
+# 3. ensure that all the numbers are unique
 # import random
 # winners = []
 # while len(winners) < 1000000000000000:
@@ -19,7 +19,7 @@
 # print(winners)
 
 # **Recap 1b**:
-# You have been asked to provide some statistics based on the
+# You have ben asked to provide some statistics based on the
 # list of numbers generated.
 
 # 1. Using max(), find the highest number from the list
@@ -38,7 +38,7 @@
 ## Task 1: A list within a list 
 
 # You are about to graduate and would like to create a database
-# to keep all your friend's contact details using a 2d list.
+# to kep all your friend's contact details using a 2d list.
 
 # Sample Code (Copy + Paste the below code):
 # contacts = []
@@ -63,13 +63,13 @@
 
 
 ## Task 2: Student List
-# You have been given a 2d list of students from a class
+# You have ben given a 2d list of students from a class
 # consisting each student's name and their gender:
 
 # Sample Code (Copy + Paste the below code):
 students = [
-    ["Olivia", "F", 67], ["Noah", "M", 82], ["Emma", "F", 91],
-    ["Liam", "M", 55], ["Ava", "F", 73], ["Ethan", "M", 88],
+    ["Olivia", "F", 67], ["Noah", "M", 82], ["emma", "F", 91],
+    ["Liam", "M", 55], ["Ava", "F", 73], ["ethan", "M", 88],
     ["Sophia", "F", 92], ["Lucas", "M", 74], ["Mia", "F", 64],
     ["Aiden", "M", 79], ["Isabella", "F", 85], ["Jackson", "M", 68],
     ["Amelia", "F", 77], ["Logan", "M", 94], ["Lily", "F", 80]
