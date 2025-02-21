@@ -103,5 +103,5 @@ for student in students:
 boys = []
 girls = []
 for s in students:
-    if student[2] == "F":
-        
+    if s[2] == "F":
+        girls.append(student)
