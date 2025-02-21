@@ -29,7 +29,8 @@ print(winners)
 #    print out a random number from the list.
 # 5. Using index(), print out the index of the printed random
 #    number.
+a = random.choice(winners)
 print("the max is " + str(max(winners)))
 print("the min is " + str(min(winners)))
 print("the average is " + str(sum(winners)/len(winners)))
-print("the choice is " + str(random.choice(winners)))
+print("the choice is " + str(a))
