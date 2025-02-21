@@ -16,7 +16,6 @@ item = random.randint(1,100)
 while len(winners) < 101:
     if item not in winners:
         winners.append(item)
-        item = random.randint(1,100)
 print(winners)
 print(len(winners))
 
