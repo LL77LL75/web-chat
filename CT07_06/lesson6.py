@@ -82,7 +82,6 @@ for student in students:
     print(name,gender)
 ### the above is a nested list. Study and discuss it before we
 ### move on.
-e
 # 1. Write a for loop to print out the names of each student and
 #    the gender beside.
    
