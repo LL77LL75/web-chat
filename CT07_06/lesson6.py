@@ -29,3 +29,4 @@ print(winners)
 #    print out a random number from the list.
 # 5. Using index(), print out the index of the printed random
 #    number.
+print(max)
