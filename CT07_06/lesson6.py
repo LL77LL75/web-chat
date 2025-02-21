@@ -75,7 +75,7 @@ students = [
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
 for student in students:
-    print(str(student) +"")
+    print(student)
 ### the above is a nested list. Study and discuss it before we
 ### move on.
 
