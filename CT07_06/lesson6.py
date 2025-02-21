@@ -17,6 +17,3 @@ while len(winners) < 101:
     if item not in winners:
         winners.append(item)
 print(winners)
-print(len(winners))
-
-
