@@ -80,6 +80,7 @@ students = [
 for student in students:
     name, gender, _ = student
     print(name,gender)
+    
 ### the above is a nested list. Study and discuss it before we
 ### move on.
 # 1. Write a for loop to print out the names of each student and
@@ -87,3 +88,15 @@ for student in students:
    
 #    e.g. Olivia F
 #         Noah M
+
+## Task 3: Boys and Girls
+# Based on the class list given in the previous task, separate
+# the class into 2 lists of boys and girls.
+
+# 1. Create 2 more lists called boys and girls.
+# 2. Loop through the 'students' list from the previous task
+#    a. if the gender is a boy, add the name into the boys list
+#    b. if the gender is a girl, add the name into the girls list
+# 3. Write a for loop and name all the boys
+# 4. Write a for loop and name all the girls
+# 5. Print out how many boys and girls there are
