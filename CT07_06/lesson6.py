@@ -31,4 +31,4 @@ print(winners)
 #    number.
 print("the max is " + str(max(winners)))
 print("the min is " + str(min(winners)))
-print("the max is " + str(max(winners)))
+print("the average is " + str((winners)))
