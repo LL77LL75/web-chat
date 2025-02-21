@@ -11,9 +11,10 @@
 # 2. Each number added range between 1 to 1000
 # 3. Ensure that all the numbers are unique
 import random
-list = []
+winners = []
 item = random.randint(1,100)
-while len(list) < 101:
-    if item not in list:
-        list.append(item)
-print(list)
+while len(winners) < 101:
+    if item not in winners:
+        winners.append(item)
+print(winners)
+print(len(winners))
