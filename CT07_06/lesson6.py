@@ -106,4 +106,4 @@ for s in students:
     if s[2] == "F":
         girls.append(s)
     else:
-        
+        boys.append(s)
