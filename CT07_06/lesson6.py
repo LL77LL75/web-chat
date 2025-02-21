@@ -78,8 +78,8 @@ students = [
 #     print(str(student[0]) +","+str(student[1]))
 
 for student in students:
-    name, gender, _ = student
-    print(name,gender)
+    name, gender,_ = student
+    print(name,gender,_)
     
 ### the above is a nested list. Study and discuss it before we
 ### move on.
@@ -102,3 +102,6 @@ for student in students:
 # 5. Print out how many boys and girls there are
 boys = []
 girls = []
+for s in students:
+    if student[2] == "F":
+        
