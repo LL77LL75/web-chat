@@ -12,7 +12,7 @@
 # 3. Ensure that all the numbers are unique
 import random
 winners = []
-while len(winners) < 101:
+while len(winners) < 100:
     item = random.randint(1,1000)
     if item not in winners:
         winners.append(item)
