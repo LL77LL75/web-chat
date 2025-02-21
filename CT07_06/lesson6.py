@@ -78,7 +78,7 @@ students = [
 #     print(str(student[0]) +","+str(student[1]))
 
 for student in students:
-    name, gender, = student
+    name, gender,_ = student
     print(name,gender)
 ### the above is a nested list. Study and discuss it before we
 ### move on.
