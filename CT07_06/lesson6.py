@@ -16,3 +16,4 @@ item = random.randint(1,100)
 while len(list) < 101:
     if item not in list:
         list.append(item)
+print(li)
