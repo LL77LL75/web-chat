@@ -107,3 +107,4 @@ for s in students:
         girls.append(s)
     else:
         boys.append(s)
+print(girls)
