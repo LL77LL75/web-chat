@@ -11,3 +11,4 @@
 # 2. Each number added range between 1 to 1000
 # 3. Ensure that all the numbers are unique
 list = []
+while len(list)< 101
