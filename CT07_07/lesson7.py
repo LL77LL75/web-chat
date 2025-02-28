@@ -16,12 +16,22 @@
 #    Phone number: 85726845
 #    CCA: Hockey
 
-student1 = ["John", 98453126, "Hockey"]
-student2 = ["Adam", 93029102, "Soccer"]
-student3 = ["Sylvia", 87894032, "Dance"]
-students = [student1,student2,student3]
-for student in students:
-    for student in students:
-        name,phone_number,cca = student
-    print(name)
+# student1 = ["John", 98453126, "Hockey"]
+# student2 = ["Adam", 93029102, "Soccer"]
+# student3 = ["Sylvia", 87894032, "Dance"]
+# students = [student1,student2,student3]
+# for student in students:
+#     for student in students:
+#         name,phone_number,cca = student
+#     print(name)
     
+
+## Task 1: Introduction to List Merging
+# You are given 2 lists of fruits. Merge them into 1 list and
+# print the result:
+
+list1 = ["Apple", "Banana", "Cherry"]
+list2 = ["Durian", "Elderberry", "Figs"]
+
+# 1. Use the + operator to combine the lists.
+# 2. Print the combined list.
