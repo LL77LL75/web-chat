@@ -48,7 +48,7 @@ list3 = list1 +list2
 # 1. Merge the lists using the + operator.
 # 2. Use the sorted() function to sort the combined list.
 # 3. Print the sorted list.
-b = sorted(list3)                                 
+b = sorted(list3)
 ## Task 3: Splitting Lists at a Point
 # You are required to divide a basket of fruits.
 # Split the given list at the specified index:
