@@ -145,4 +145,4 @@ flat_list = []
 for i in nested_list:
     for a in i:
         flat_list.append(a)
-print
+print(flat_list)
