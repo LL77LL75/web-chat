@@ -124,7 +124,7 @@ even = []
 for i in list3:
     if i %2 ==0:
         even.append(i)
-print
+print(even)
 # 1. Create an empty list named 'even'
 # 2. Using 'for' loops, append even elements into 'even'
 # 3. Print the new list.
