@@ -58,4 +58,6 @@ index = 3
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting sublists.
+sublist1
+sublist2
 print(fruits[:])
