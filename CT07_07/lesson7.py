@@ -48,4 +48,4 @@ list3 = list1 +list2
 # 1. Merge the lists using the + operator.
 # 2. Use the sorted() function to sort the combined list.
 # 3. Print the sorted list.
-(list3)
+b = sorted(list3)
