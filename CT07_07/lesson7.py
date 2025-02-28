@@ -58,3 +58,4 @@ index = 3
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting sublists.
+list[3:]
