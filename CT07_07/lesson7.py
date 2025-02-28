@@ -72,4 +72,4 @@ fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 # 3. Print both halves.
 mid = len(fruits)//2
 print(fruits[:mid])
-print(fruits())
+print(fruits[mid:])
