@@ -58,6 +58,15 @@ index = 3
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting sublists.
-sublist1 = []
-sublist2 = []
-sufruits[:]
+
+
+## Task 4: Splitting a List in Half
+# You have been tasked to divide the basket of fruits into
+# 2 equal halves. Given a list of even length, split it
+# into 2 equal halves.
+
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+
+# 1. Find the midpoint of the list.
+# 2. Split the list into 2 halves using slicing.
+# 3. Print both halves.
