@@ -15,8 +15,7 @@
 #    Name: James
 #    Phone number: 85726845
 #    CCA: Hockey
-student=[]
-# students = []
+
 # student1 = ["John", 98453126, "Hockey"]
 # student2 = ["Adam", 93029102, "Soccer"]
 # student3 = ["Sylvia", 87894032, "Dance"]
