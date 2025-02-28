@@ -91,3 +91,4 @@ for i in list1:
     for a in list2:
         if i == a :
             common.append(i)
+print (common)
