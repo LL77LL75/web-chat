@@ -49,4 +49,14 @@ list3 = list1 +list2
 # 2. Use the sorted() function to sort the combined list.
 # 3. Print the sorted list.
 b = sorted(list3)
-print(b)
+print( 0 ,b)
+
+## Task 3: Splitting Lists at a Point
+# You are required to divide a basket of fruits.
+# Split the given list at the specified index:
+
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+index = 3
+
+# 1. Use slicing to split the list at the provided index.
+# 2. Print the resulting sublists.
