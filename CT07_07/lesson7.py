@@ -22,4 +22,5 @@ student3 = ["Sylvia", 87894032, "Dance"]
 students = [student1,student2,student3]
 for student in students:
     for student in students:
-        name,phone_number,CCA = student
+        name,phone_number,cca = student
+    
