@@ -100,12 +100,12 @@ index = 3
 
 list1 = ["Apple", "Banana", "Cherry", "Cherry"]
 list2 = ["Cherry", "Durian", "Durian", "Figs"]
-
+list3 = list1+list2
 # 1. Create an empty list named 'unique'
 # 2. Using 'for' loops, append unique elements into 'unique'
 # 3. Print the unique elements
 unique = []
-for i in list1:
+for i in list3:
     if i not in unique:
         unique.append(i)
 print(unique)
