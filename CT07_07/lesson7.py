@@ -35,3 +35,4 @@ list2 = ["Durian", "Elderberry", "Figs"]
 
 # 1. Use the + operator to combine the lists.
 # 2. Print the combined list.
+fruits = list1+list
