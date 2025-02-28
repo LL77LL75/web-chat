@@ -135,14 +135,27 @@ index = 3
 # are each seated in a pair. However, you want to unpack
 # the nested lists in order to have a list of all students.
 
-nested_list = [[1, 2], [3, 4], [5, 6]]
+# nested_list = [[1, 2], [3, 4], [5, 6]]
 
 # 1. Create an empty list named 'flat_list'
 # 2. Loop through each sublist and append each element to the
 #    flat_list
 # 3. Print the flattened list.
-flat_list = []
-for i in nested_list:
-    for a in i:
-        flat_list.append(a)
-print(flat_list)
+# flat_list = []
+# for i in nested_list:
+#     for a in i:
+#         flat_list.append(a)
+# print(flat_list)
+
+## Task 9: Partitioning a List into Smaller Lists
+# You have been tasked to divide a class of 9 students
+# into groups of 3.
+
+# Given a list and a size, split the list into multiple
+# sub-lists where each sub-list is of the given size.
+
+students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+size = 3
+
+# 1. Use a loop to create sub-lists of the specified size.
+# 2. Print the sub-lists.
