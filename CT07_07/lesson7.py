@@ -65,11 +65,25 @@ index = 3
 # 2 equal halves. Given a list of even length, split it
 # into 2 equal halves.
 
-fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 
 # 1. Find the midpoint of the list.
 # 2. Split the list into 2 halves using slicing.
 # 3. Print both halves.
-mid = len(fruits)//2
-print(fruits[:mid])
-print(fruits[mid:])
+# mid = len(fruits)//2
+# print(fruits[:mid])
+# print(fruits[mid:])
+
+## Task 5: Identifying Common Elements in Lists
+# You have been given 2 lists of fruits. However, there might be
+# duplicates. Your job is to identify and print the common fruits
+# between them.
+
+list1 = ["Apple", "Banana", "Cherry", "Durian"]
+list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+
+# 1. Create an empty list named 'common'
+# 2. Using 'for' loops, append common elements into 'common'
+# 3. Print the common elements
+common = []
+
