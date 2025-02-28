@@ -60,4 +60,4 @@ index = 3
 # 2. Print the resulting sublists.
 sublist1 = []
 sublist2 = []
-print(fruits[:])
+sufruits[:]
