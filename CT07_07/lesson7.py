@@ -22,4 +22,4 @@ student3 = ["Sylvia", 87894032, "Dance"]
 students = [student1,student2,student3]
 for student in students:
     for s in student:
-        
+        print
