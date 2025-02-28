@@ -49,3 +49,4 @@ list3 = list1 +list2
 # 2. Use the sorted() function to sort the combined list.
 # 3. Print the sorted list.
 b = sorted(list3)
+print(b)
