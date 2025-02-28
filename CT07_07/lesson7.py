@@ -70,3 +70,4 @@ fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 # 1. Find the midpoint of the list.
 # 2. Split the list into 2 halves using slicing.
 # 3. Print both halves.
+mid = len(fruits)
