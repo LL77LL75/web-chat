@@ -108,4 +108,4 @@ unique = []
 for i in list1:
     if i not in unique:
         unique.append(i)
-print(uni)
+print(unique)
