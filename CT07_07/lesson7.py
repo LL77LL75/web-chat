@@ -106,6 +106,6 @@ list2 = ["Cherry", "Durian", "Durian", "Figs"]
 # 3. Print the unique elements
 unique = []
 for i in list1:
-    if i not in list2:
+    if i not in unique:
         unique.append(i)
-print(1)
+print(uni)
