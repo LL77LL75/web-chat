@@ -142,3 +142,7 @@ nested_list = [[1, 2], [3, 4], [5, 6]]
 #    flat_list
 # 3. Print the flattened list.
 flat_list = []
+for i in nested_list:
+    for a in i:
+        flat_list.append(a)
+print
