@@ -87,3 +87,7 @@ list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 # 3. Print the common elements
 common = []
 
+for i in list1:
+    for a in list2:
+        if i == a :
+            common
