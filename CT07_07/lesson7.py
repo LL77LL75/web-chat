@@ -21,6 +21,5 @@ student2 = ["Adam", 93029102, "Soccer"]
 student3 = ["Sylvia", 87894032, "Dance"]
 students = [student1,student2,student3]
 for student in students:
-    name,phone_number,CCA = student
-for student in students:
-    print(name)
+    for student in students:
+        name,phone_number,CCA = student
