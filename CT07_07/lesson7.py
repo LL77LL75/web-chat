@@ -58,4 +58,4 @@ index = 3
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting sublists.
-print(fruits[3:])
+print(fruits[:3])
