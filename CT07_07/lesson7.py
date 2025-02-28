@@ -79,16 +79,29 @@ index = 3
 # duplicates. Your job is to identify and print the common fruits
 # between them.
 
-list1 = ["Apple", "Banana", "Cherry", "Durian"]
-list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+# list1 = ["Apple", "Banana", "Cherry", "Durian"]
+# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 
 # 1. Create an empty list named 'common'
 # 2. Using 'for' loops, append common elements into 'common'
 # 3. Print the common elements
-common = []
+# common = []
 
-for i in list1:
-    for a in list2:
-        if i == a :
-            common.append(i)
-print (common)
+# for i in list1:
+#     if i in list2:
+#         common.append(i)
+# print (common)
+
+
+## Task 6: Merging Lists Unique Items
+# You have been given 2 lists of fruits that contains duplicates.
+# Your task is to merge the 2 lists into a new list that contain
+# no duplicates.
+
+list1 = ["Apple", "Banana", "Cherry", "Cherry"]
+list2 = ["Cherry", "Durian", "Durian", "Figs"]
+
+# 1. Create an empty list named 'unique'
+# 2. Using 'for' loops, append unique elements into 'unique'
+# 3. Print the unique elements
+
