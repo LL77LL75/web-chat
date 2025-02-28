@@ -159,5 +159,6 @@ size = 3
 new_list = []
 for i in range(0,len(students),size):
     new_list[i:i+size]
+print(new_list)
 # 1. Use a loop to create sub-lists of the specified size.
 # 2. Print the sub-lists
