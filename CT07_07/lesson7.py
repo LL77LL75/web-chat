@@ -141,4 +141,4 @@ nested_list = [[1, 2], [3, 4], [5, 6]]
 # 2. Loop through each sublist and append each element to the
 #    flat_list
 # 3. Print the flattened list.
-flat_list
+flat_list = []
