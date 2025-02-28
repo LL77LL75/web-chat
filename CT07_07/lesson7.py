@@ -23,4 +23,4 @@ students = [student1,student2,student3]
 for student in students:
     name,phone_number,CCA = student
 for student in students:
-    print
+    print(name)
