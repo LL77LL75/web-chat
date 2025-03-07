@@ -3,4 +3,4 @@ ans = input("what would you like to order? ")
 order = []
 #allows the orders to be stored
 while ans != "end":
-    ans.append
+    order.append(ans)
