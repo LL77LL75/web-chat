@@ -4,4 +4,6 @@ order = []
 #allows the orders to be stored
 while ans != "end":
     order.append(ans)
-print(" ")
+print("you have ordered the following:")
+for i in order:
+    print()
