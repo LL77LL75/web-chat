@@ -3,6 +3,7 @@ ans = input("what would you like to order? ")
 order = []
 #allows the orders to be stored
 while ans != "end":
+    ans = inp
     order.append(ans)
     #adds the order
 print("you have ordered the following:")
