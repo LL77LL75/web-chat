@@ -9,6 +9,7 @@ while ans != "end":
     #changes the answer
 print("you have ordered the following:")
 #prints the order
+
 for i in order:
     print(str(order.index(i)) + "." + i)
 # import random
