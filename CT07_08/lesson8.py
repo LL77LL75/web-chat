@@ -12,6 +12,7 @@ print("you have ordered the following:")
 order1 = 0
 for i in order:
     print(str(order1) + "." + i)
+    order1 += 1
 # import random
 # hp = 100
 # battles = 0
