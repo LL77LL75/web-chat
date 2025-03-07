@@ -10,7 +10,7 @@ while ans != "end":
 print("you have ordered the following:")
 #prints the order
 for i in order:
-    print(str(order.index(i)) + "." + i)
+    print(str(order.index(i+1)) + "." + i)
 # import random
 # hp = 100
 # battles = 0
