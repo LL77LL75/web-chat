@@ -7,5 +7,5 @@ while ans != "end":
     #adds the order
 print("you have ordered the following:")
 #prints the order
-for i in order:
+for i in len(order):
     print()
