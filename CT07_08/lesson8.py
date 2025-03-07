@@ -6,3 +6,4 @@ while hp >0:
     hp = hp - random.randint(1,5)
     # reduces the hero's health
     print("after fighting monsters the hero has " + str(hp) + " left")
+print("the hero")
