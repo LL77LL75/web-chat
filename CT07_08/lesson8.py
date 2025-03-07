@@ -8,4 +8,4 @@ while hp >0:
     # reduces the hero's health
     battles += 1
     print("after fighting monsters the hero has " + str(hp) + " left")
-print("the hero died after fighting " + str(battles))
+print("the hero died after fighting " + str(battles) + " battles")
