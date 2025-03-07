@@ -10,4 +10,4 @@ while ans != "end":
 print("you have ordered the following:")
 #prints the order
 for i in order:
-    print(str(i) + str(order[i]))
+    print(str(index(i)) + str(order[i]))
