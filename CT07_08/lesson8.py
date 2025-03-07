@@ -9,5 +9,5 @@ while ans != "end":
     #changes the answer
 print("you have ordered the following:")
 #prints the order
-for i in len(order):
+for i in order:
     print(str(i) + str(order[i]))
