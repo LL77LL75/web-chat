@@ -4,3 +4,4 @@ order = []
 #allows the orders to be stored
 while ans != "end":
     order.append(ans)
+print
