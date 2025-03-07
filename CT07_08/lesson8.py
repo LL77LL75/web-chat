@@ -16,7 +16,7 @@ hp = 100
 battles = 0
 # sets the hero's health points
 while hp >0:
-    print("after fighting monsters the hero has " + str(hp) + " health left")
+    print("after fighting monsters, his health is now:" + str(hp))
     # reduces the hero's health
     hp = hp - random.randint(1,5)
     #checks if the hero has more than 0 health
