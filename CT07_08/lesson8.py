@@ -8,4 +8,4 @@ while ans != "end":
 print("you have ordered the following:")
 #prints the order
 for i in len(order):
-    print(str(i) + order)
+    print(str(i) + str(order[]))
