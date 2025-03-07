@@ -4,4 +4,4 @@ hp = 100
 while hp >0:
     #checks if the hero has more than 0 health
     hp = hp - random.randint(1,5)
-    print("after fighting monsters the hero has " + str(hp) + "")
+    print("after fighting monsters the hero has " + str(hp) + " left")
