@@ -164,5 +164,5 @@ while True:
         winner = 'keith'
         break
 if guess == winner:
-    print()
+    print('U ')
 window.mainloop()
