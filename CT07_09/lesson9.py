@@ -84,7 +84,7 @@ sally.seth(90)
 sally.penup()
 sally.goto(0,-250)
 sally.write("Sally", align="center", font=('Arial', 20))
-sally.goto(-400,-250)
+
 
 
 
