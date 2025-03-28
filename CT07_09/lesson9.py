@@ -147,4 +147,5 @@ while True:
         a.forward(random.randint(1, 40))
         if a.ycor() >= 250:
             break
+
 window.mainloop()
