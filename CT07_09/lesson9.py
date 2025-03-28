@@ -14,7 +14,7 @@ t.penup()
 t.sety(250)
 t.setx(-400)
 t.pendown()
-while t.xcor() < 425:
+for i in range :
     t.penup()
     t.setx(t.xcor()- 25)
     t.pendown()
