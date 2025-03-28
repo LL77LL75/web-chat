@@ -14,7 +14,7 @@ t.penup()
 t.sety(250)
 t.setx(-400)
 t.pendown()
-for i in range :
+for i in range(32):
     t.penup()
     t.setx(t.xcor()- 25)
     t.pendown()
