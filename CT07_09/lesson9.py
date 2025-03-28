@@ -142,5 +142,5 @@ guess = input("WHO WILL WIN ")
 #                forever loop.
 while True:
     t.seth(random.randint(75, 115))
-    t.forward(random.randint(0.5, 40))
+    t.forward(random.randint(1, 40))
 window.mainloop()
