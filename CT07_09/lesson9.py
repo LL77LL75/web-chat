@@ -109,7 +109,7 @@ bob.color('blue')
 bob.write("bob", align="center", font=('Arial', 20))
 window.mainloop()
 import random
-input("WHO WILL WIN")
+guess = input("WHO WILL WIN")
 # **Task 1f**: Input to guess the race winner
 # Adding on to your previous answer, ask the user to guess the
 # winner and store the user's response in the 'guess' variable
