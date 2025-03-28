@@ -116,7 +116,6 @@ window.mainloop()
 # 1. Using 'input()', ask the user to "Guess the winner! " in
 #    the console.
 # 2. Store the user's response in the variable 'guess'
-guess = input("whats the winner? ")
 
 # **Task 1g**: Racing loop
 # Adding on to your previous answer, import the 'random' library
