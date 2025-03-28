@@ -85,8 +85,4 @@ sally.penup()
 sally.goto(0,-250)
 sally.write("Sally", align="center", font=('Arial', 20))
 sally.color()
-
-
-
-
 window.mainloop()
