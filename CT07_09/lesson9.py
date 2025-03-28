@@ -140,7 +140,9 @@ guess = input("WHO WILL WIN ")
 #             i. If true, set the 'winner' variable to the
 #                winning turtle's name and 'break' out of the
 #                forever loop.
+turtles = [sally,bob,keith]
 while True:
+    for a in turtles:
     t.seth(random.randint(75, 115))
     t.forward(random.randint(1, 40))
 window.mainloop()
