@@ -103,6 +103,7 @@ bob.penup()
 bob.goto(0,0)
 bob.color('blue')
 bob.write("bob", align="center", font=('Arial', 20))
+
 bob.shape('turtle')
 bob.seth(90)
 bob.penup()
