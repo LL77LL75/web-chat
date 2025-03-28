@@ -14,9 +14,9 @@ t.penup()
 t.sety(250)
 t.setx(-400)
 t.pendown()
-for i in range(32):
+for i in range(-400,400,25):
     t.penup()
-    t.setx(t.xcor()- 25)
+    t.setx(i)
     t.pendown()
     t.stamp()
 
