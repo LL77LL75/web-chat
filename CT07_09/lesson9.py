@@ -86,6 +86,18 @@ sally.goto(0,-250)
 sally.color('yellow')
 sally.write("Sally", align="center", font=('Arial', 20))
 
+# **Task 1e**: Configure Bob and Keith turtles
+# Adding on to your previous answer, repeat what you have done
+# to set up Sally the turtle to also create the following
+# turtles and position them at the specified coordinates:
+# 1. Bob:
+#     Colour: "blue"
+#     Starting position: (-200, -250)
+# 2. Keith:
+#     Colour: "white"
+#     Starting position: (200, -250)
+
+
 sally.shape('turtle')
 sally.seth(90)
 sally.penup()
