@@ -20,6 +20,11 @@ for i in range(-400,400,25):
     t.pendown()
     t.stamp()
 t.setpos(-300, -250)
+t.pencolor('yellow')
+t.pendown()
+t.seth(90)
+t.forward(600)
+t.hideturtle()
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
 # squares at y = 250 by creating a black square turtle object
