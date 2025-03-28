@@ -145,4 +145,6 @@ while True:
     for a in turtles:
         a.seth(random.randint(75, 115))
         a.forward(random.randint(1, 40))
+        if a.ycor() >= 250:
+            break
 window.mainloop()
