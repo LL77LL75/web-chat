@@ -28,7 +28,8 @@ t.hideturtle()
 t.penup()
 t.setpos(400,250)
 sally = turtle.Turtle()
-sally.shape
+sally.shape('turtle')
+
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
 # squares at y = 250 by creating a black square turtle object
