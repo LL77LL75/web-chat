@@ -27,7 +27,8 @@ t = turtle.Turtle()
 window = turtle.Screen()
 window.setup(800, 400)
 def square():
-    t.forward(40)
+    for i in range(4):
+        t.forward(40)
     t.right(90)
 square()
 window.mainloop()
