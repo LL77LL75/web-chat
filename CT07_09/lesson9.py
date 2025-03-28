@@ -1,7 +1,7 @@
 import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
-window.setup(400,800)
+window.setup(800, 400)
 window.bgcolor("forestgreen")
 t.shape('square')
 # t.seth(0)
