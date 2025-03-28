@@ -29,7 +29,7 @@ window.setup(800, 400)
 def square():
     for i in range(4):
         t.forward(40)
-    t.right(90)
+        t.right(90)
 square()
 window.mainloop()
 
