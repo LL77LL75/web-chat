@@ -27,7 +27,7 @@ t.seth(0)
 t.forward(600)
 t.hideturtle()
 t.penup()
-t.setpos(300)
+t.setpos(400,250)
 sally = turtle.Turtle()
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
