@@ -108,6 +108,7 @@ bob.goto(0,-250)
 bob.color('blue')
 bob.write("bob", align="center", font=('Arial', 20))
 window.mainloop()
+import random
 
 # **Task 1f**: Input to guess the race winner
 # Adding on to your previous answer, ask the user to guess the
