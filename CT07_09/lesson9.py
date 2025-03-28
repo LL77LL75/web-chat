@@ -66,7 +66,25 @@ while t.xcor() < 400:
 # You should see this when you run the program! (Refer to slides)
 
 
+# **Task 1d**: Create Sally the turtle
+# Adding on to your previous answer, create a red, turtle-shaped
+# turtle object 'Sally' will be one of the turtle racers.
+# Position Sally at the starting position of (0, -250) and put
+# "Sally" above the 'Sally' turtle object.
 
+# 1. Using 'turtle.Turtle()', create a 'Sally' turtle object
+# 2. Lift the pen using '.penup()'
+# 3. Using '.seth()', set 'Sally' turtle's heading to 90
+# 4. Using '.shape()', set 'Sally' turtle's shape to "turtle"
+# 5. Using '.color()', set 'Sally' turtle to "red"
+# 6. Using '.goto()', move 'Sally' turtle to (0, -250)
+# 7. Using '.write("Sally", align="center", font=('Arial', 20))',
+#    put "Sally" above Sally the turtle
+
+# Tip: Use '.mainloop()' at the end of your program to keep the
+# window open
+
+# You should see this when you run the program! (Refer to slides)
 
 
 
