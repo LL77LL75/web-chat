@@ -143,6 +143,6 @@ guess = input("WHO WILL WIN ")
 turtles = [sally,bob,keith]
 while True:
     for a in turtles:
-    t.seth(random.randint(75, 115))
+        t.seth(random.randint(75, 115))
     t.forward(random.randint(1, 40))
 window.mainloop()
