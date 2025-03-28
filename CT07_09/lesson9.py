@@ -97,7 +97,7 @@ sally.write("Sally", align="center", font=('Arial', 20))
 keith.shape('turtle')
 keith.seth(90)
 keith.penup()
-keith.goto(0,-250)
+keith.goto(400,-250)
 keith.color('brown')
 keith.write("KEITH THE POOP", align="center", font=('Arial', 20))
 
