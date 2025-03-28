@@ -96,7 +96,12 @@ sally.write("Sally", align="center", font=('Arial', 20))
 # 2. Keith:
 #     Colour: "white"
 #     Starting position: (200, -250)
-
+keith.shape('turtle')
+keith.seth(90)
+keith.penup()
+keith.goto(0,-250)
+keith.color('blue')
+keith.write("bob", align="center", font=('Arial', 20))
 
 bob.shape('turtle')
 bob.seth(90)
