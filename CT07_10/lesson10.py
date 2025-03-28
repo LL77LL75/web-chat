@@ -12,7 +12,7 @@
 # Output:
 #     Motion Detected
 def alert():
-    print('motion detected' * 100000)
+    print('motion detected ' * 100000)
 alert()
 
 ## Task 2: Function without parameter (w turtle)
