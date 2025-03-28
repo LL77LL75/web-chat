@@ -12,7 +12,7 @@
 # Output:
 #     Motion Detected
 def alert():
-    if inputt == 'alert()':
+    print('motion detected' * 100000)
 
 ## Task 2: Function without parameter (w turtle)
 # Using the 'turtle' library, create a 'square()' function that
