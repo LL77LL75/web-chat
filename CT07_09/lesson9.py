@@ -111,7 +111,7 @@ window.mainloop()
 import random
 guess = input("WHO WILL WIN")
 while True:
-    t.seth
+    t.seth(random.randint(75, 115))
 # **Task 1f**: Input to guess the race winner
 # Adding on to your previous answer, ask the user to guess the
 # winner and store the user's response in the 'guess' variable
