@@ -17,6 +17,7 @@ t.pendown()
 while t.xcor() < 400:
     t.penup()
     t.setx(t.xcor()- 25)
+    t.pendown()
     t.stamp()
 
 
