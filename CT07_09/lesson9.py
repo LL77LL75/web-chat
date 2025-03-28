@@ -142,8 +142,8 @@ guess = input("WHO WILL WIN ")
 #                forever loop.
 winner = ''
 while True:
-    if sally.ycor() > 250
-        a.pendown()
+    if not sally.ycor() > 250:
+        .pendown()
         a.seth(random.randint(75, 115))
         a.forward(random.randint(1, 40))
         
