@@ -26,4 +26,4 @@ import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
 def square():
-    
+    t.forward()
