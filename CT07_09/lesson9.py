@@ -53,11 +53,7 @@ t.setpos(-300, -250)
 # 2. Using the following commands, set the colour of 'pen' to
 #    "yellow", set heading to 0 and move forward by 600
 #    before hiding the turtle:
-#         a. '.pencolor()'
-#         b. '.pendown()'
-#         c. '.seth()'
-#         d. '.forward()'
-#         e. '.hideturtle()'
+
 
 # Tip: Use '.mainloop()' at the end of your program to keep the
 # window open
