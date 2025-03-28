@@ -19,7 +19,7 @@ for i in range(-400,400,25):
     t.setx(i)
     t.pendown()
     t.stamp()
-
+t.(-300, -250)
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
 # squares at y = 250 by creating a black square turtle object
