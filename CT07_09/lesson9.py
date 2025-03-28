@@ -130,7 +130,7 @@ guess = input("WHO WILL WIN")
 # 2. Set Bob, Sally, and Keith's pen down.
 # 3. In a forever loop:
 #     a. Use '.seth()' and '.randint()' to set each racing
-#        turtle's heading to between 75 and 115 randomly
+#        turtle's heading to between 75, 115 randomly
 #     b. Use '.forward()' and 'randint()' to move each racing
 #        turtle forward by between 1 and 20 randomly
 #     c. Using '.ycor()', create an 'if..elif..elif' statement
