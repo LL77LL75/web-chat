@@ -12,9 +12,10 @@ window.bgcolor("forestgreen")
 # t.penup()
 # t.sety(250)
 # t.setx(-400)
-# while t.xcor() < 400:
-#     t.setx(t.xcor()- 25)
-#     t.stamp()
+while t.xcor() < 400:
+    t.setx(t.xcor()- 25)
+    t.stamp()
+
 
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
