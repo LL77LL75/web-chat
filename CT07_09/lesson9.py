@@ -143,6 +143,7 @@ guess = input("WHO WILL WIN ")
 turtles = [sally,bob,keith]
 while True:
     for a in turtles:
+        a.pendown()
         a.seth(random.randint(75, 115))
         a.forward(random.randint(1, 40))
         if a.ycor() >= 250:
