@@ -140,11 +140,14 @@ guess = input("WHO WILL WIN ")
 #             i. If true, set the 'winner' variable to the
 #                winning turtle's name and 'break' out of the
 #                forever loop.
+winner = ''
 while True:
-    if (sally.ycor()>250 or bob.ycor() > 250) or keith.ycor() > 250:
+    if sally.ycor() > 250
         a.pendown()
         a.seth(random.randint(75, 115))
         a.forward(random.randint(1, 40))
         
         break
+
+
 window.mainloop()
