@@ -147,6 +147,4 @@ while True:
         a.forward(random.randint(1, 40))
         
         break
-
-
 window.mainloop()
