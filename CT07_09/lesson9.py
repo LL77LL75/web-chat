@@ -20,7 +20,6 @@ for i in range(-400,400,25):
     t.pendown()
     t.stamp()
 t.penup()
-t.setpos(-400, -250)
 t.pencolor('yellow')
 t.pendown()
 t.seth(0)
