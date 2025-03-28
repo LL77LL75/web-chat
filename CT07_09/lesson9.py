@@ -27,6 +27,7 @@ t.seth(0)
 t.forward(600)
 t.hideturtle()
 t.penup()
+sa
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
 # squares at y = 250 by creating a black square turtle object
