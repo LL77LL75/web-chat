@@ -149,12 +149,12 @@ while True:
     else:
         winner = sally
         break
-    if not sally.ycor() > 250:
-        sally.pendown()
-        sally.seth(random.randint(75, 115))
-        sally.forward(random.randint(1, 40))
+    if not bob.ycor() > 250:
+        bob.pendown()
+        bob.seth(random.randint(75, 115))
+        bob.forward(random.randint(1, 40))
     else:
-        winner = sally
+        winner = 'bob'
         break
     
 window.mainloop()
