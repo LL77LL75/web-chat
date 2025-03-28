@@ -36,7 +36,7 @@ sally.seth(90)
 sally.penup()
 sally.goto(-400,-250)
 sally.goto(0,250)
-sally.write('sally')
+sally.write("Sally", align="center", font=('Arial', 20))
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
 # squares at y = 250 by creating a black square turtle object
@@ -54,10 +54,6 @@ sally.write('sally')
 #         b. Stamp a copy of 'pen' turtle at its current
 #            position using '.stamp()'
 
-# Tip: Use '.mainloop()' at the end of your program to keep the
-# window open
-
-# You should see this when you run the program! (Refer to slides)
 
 
 # **Task 1c**: Drawing the start line
@@ -72,10 +68,6 @@ sally.write('sally')
 #    before hiding the turtle:
 
 
-# Tip: Use '.mainloop()' at the end of your program to keep the
-# window open
-
-# You should see this when you run the program! (Refer to slides)
 
 
 # **Task 1d**: Create Sally the turtle
@@ -93,10 +85,6 @@ sally.write('sally')
 # 7. Using '.write("Sally", align="center", font=('Arial', 20))',
 #    put "Sally" above Sally the turtle
 
-# Tip: Use '.mainloop()' at the end of your program to keep the
-# window open
-
-# You should see this when you run the program! (Refer to slides)
 
 
 
