@@ -82,7 +82,7 @@ bob = turtle.Turtle()
 sally.shape('turtle')
 sally.seth(90)
 sally.penup()
-sally.goto(0,-250)
+sally.goto(400,-250)
 sally.color('yellow')
 sally.write("Sally", align="center", font=('Arial', 20))
 
