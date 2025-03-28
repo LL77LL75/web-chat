@@ -9,7 +9,7 @@ window.bgcolor("forestgreen")
 # for i in range(sides):
 #     t.forward(100)
 #     t.left(360/sides)
-# t.penup()
+t.penup()
 t.sety(250)
 t.setx(-400)
 while t.xcor() < 400:
