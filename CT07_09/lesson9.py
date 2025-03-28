@@ -145,8 +145,9 @@ while True:
     if not sally.ycor() > 250:
         sally.pendown()
         sally.seth(random.randint(75, 115))
-        a.forward(random.randint(1, 40))
-        
+        sally.forward(random.randint(1, 40))
+    else:
+        winner = sally
         break
 
 
