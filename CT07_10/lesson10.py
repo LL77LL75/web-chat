@@ -12,4 +12,12 @@
 # Output:
 #     Motion Detected
 def alert():
-    
+    if inputt == 'alert()':
+
+## Task 2: Function without parameter (w turtle)
+# Using the 'turtle' library, create a 'square()' function that
+# draws a 20x20 square at the turtle object's current position
+# whenever the function is called.
+
+# By calling the 'square()' function, draw a square anywhere
+# within the turtle window.
