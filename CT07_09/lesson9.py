@@ -97,17 +97,11 @@ sally.write("Sally", align="center", font=('Arial', 20))
 #     Colour: "white"
 #     Starting position: (200, -250)
 
-keith.shape('turtle')
-keith.seth(90)
-keith.penup()
-keith.goto(0,0)
-keith.color('blue')
-keith.write("bob", align="center", font=('Arial', 20))
 
 bob.shape('turtle')
 bob.seth(90)
 bob.penup()
-bob.goto(0,0)
+bob.goto(0,-20)
 bob.color('blue')
 bob.write("bob", align="center", font=('Arial', 20))
 window.mainloop()
