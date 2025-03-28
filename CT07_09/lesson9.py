@@ -107,7 +107,7 @@ bob.penup()
 bob.goto(0,-250)
 bob.color('blue')
 bob.write("bob", align="center", font=('Arial', 20))
-window.mainloop()
+
 import random
 guess = input("WHO WILL WIN")
 
@@ -142,3 +142,4 @@ guess = input("WHO WILL WIN")
 #                forever loop.
 while True:
     t.seth(random.randint(75, 115))
+window.mainloop()
