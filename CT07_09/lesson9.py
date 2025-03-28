@@ -99,7 +99,7 @@ keith.seth(90)
 keith.penup()
 keith.goto(0,-250)
 keith.color('brown')
-keith.write("", align="center", font=('Arial', 20))
+keith.write("KEITH THE POOP", align="center", font=('Arial', 20))
 
 bob.shape('turtle')
 bob.seth(90)
@@ -108,3 +108,32 @@ bob.goto(0,-250)
 bob.color('blue')
 bob.write("bob", align="center", font=('Arial', 20))
 window.mainloop()
+
+# **Task 1f**: Input to guess the race winner
+# Adding on to your previous answer, ask the user to guess the
+# winner and store the user's response in the 'guess' variable
+
+# 1. Using 'input()', ask the user to "Guess the winner! " in
+#    the console.
+# 2. Store the user's response in the variable 'guess'
+guess = input("whats the winner? ")
+
+# **Task 1g**: Racing loop
+# Adding on to your previous answer, import the 'random' library
+# and create a forever loop that will set each racing turtle's
+# heading and number of steps forward randomly until one of them
+# crosses y=250 where the finish line is.
+
+# 1. Initiate a variable 'winner' and assign it an empty string
+# 2. Set Bob, Sally, and Keith's pen down.
+# 3. In a forever loop:
+#     a. Use '.seth()' and '.randint()' to set each racing
+#        turtle's heading to between 75 and 115 randomly
+#     b. Use '.forward()' and 'randint()' to move each racing
+#        turtle forward by between 1 and 20 randomly
+#     c. Using '.ycor()', create an 'if..elif..elif' statement
+#        that checks if any of the racing turtle's y coordinate
+#        is higher than y = 250.
+#             i. If true, set the 'winner' variable to the
+#                winning turtle's name and 'break' out of the
+#                forever loop.
