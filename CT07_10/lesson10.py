@@ -25,4 +25,5 @@ alert()
 import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
-t.
+def square():
+    
