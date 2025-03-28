@@ -30,7 +30,7 @@ def square():
     t.forward(40)
     t.right(90)
 square()
-
+window.mainloop()
 
 ## Task 3: Function with parameter (w/o turtle)
 # Write a Python function 'multiply()', that takes 2 parameters,
