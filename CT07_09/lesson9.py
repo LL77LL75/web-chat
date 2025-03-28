@@ -166,5 +166,5 @@ while True:
 if guess == winner:
     print('U WON u sigma person ' * (100**(100**100)))
 else:
-    print('Take the L bo')
+    print('Take the L bozo')
 window.mainloop()
