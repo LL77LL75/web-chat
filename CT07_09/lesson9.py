@@ -163,5 +163,6 @@ while True:
     else:
         winner = 'keith'
         break
-    
+if guess == winner:
+    print()
 window.mainloop()
