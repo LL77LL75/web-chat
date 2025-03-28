@@ -35,7 +35,7 @@ sally.shape('turtle')
 sally.seth(90)
 sally.penup()
 sally.goto(-400,-250)
-sally.goto(0,250)
+sally.goto(0,-250)
 sally.write("Sally", align="center", font=('Arial', 20))
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
