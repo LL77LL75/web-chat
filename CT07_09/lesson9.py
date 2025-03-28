@@ -3,18 +3,18 @@ t = turtle.Turtle()
 window = turtle.Screen()
 window.setup(800,400)
 window.bgcolor("forestgreen")
-t.seth(0)
-sides = int(input("sides "))
-t.pendown()
-for i in range(sides):
-    t.forward(100)
-    t.left(360/sides)
-t.penup()
-t.sety(250)
-t.setx(-400)
-while t.xcor() < 400:
-    t.setx(t.xcor()- 25)
-    t.stamp()
+# t.seth(0)
+# sides = int(input("sides "))
+# t.pendown()
+# for i in range(sides):
+#     t.forward(100)
+#     t.left(360/sides)
+# t.penup()
+# t.sety(250)
+# t.setx(-400)
+# while t.xcor() < 400:
+#     t.setx(t.xcor()- 25)
+#     t.stamp()
 
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
