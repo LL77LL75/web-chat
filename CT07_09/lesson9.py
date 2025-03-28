@@ -76,7 +76,16 @@ t.goto(400,250)
 # 6. Using '.goto()', move 'Sally' turtle to (0, -250)
 # 7. Using '.write("Sally", align="center", font=('Arial', 20))',
 #    put "Sally" above Sally the turtle
-
+sally = turtle.Turtle()
+keith = turtle.Turtle()
+bob = turtle.Turtle()
+sally.shape('turtle')
+sally.seth(90)
+sally.penup()
+sally.goto(-400,-250)
+sally.goto(0,-250)
+sally.write("Sally", align="center", font=('Arial', 20))
+sally.goto(-400,-250)
 
 
 
