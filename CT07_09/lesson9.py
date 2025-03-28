@@ -14,12 +14,11 @@ t.penup()
 t.sety(250)
 t.setx(-400)
 t.pendown()
-while t.xcor() < 400:
+while t.xcor() < 425:
     t.penup()
     t.setx(t.xcor()- 25)
     t.pendown()
     t.stamp()
-
 
 # **Task 1b**: Drawing the finish line
 # Adding on to your previous answer, create a line of black
