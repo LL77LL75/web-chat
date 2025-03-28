@@ -117,6 +117,8 @@ window.mainloop()
 #    the console.
 # 2. Store the user's response in the variable 'guess'
 
+
+
 # **Task 1g**: Racing loop
 # Adding on to your previous answer, import the 'random' library
 # and create a forever loop that will set each racing turtle's
