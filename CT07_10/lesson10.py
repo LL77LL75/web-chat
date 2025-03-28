@@ -11,4 +11,5 @@
 #     alert()
 # Output:
 #     Motion Detected
-
+def alert():
+    
