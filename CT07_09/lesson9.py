@@ -144,5 +144,5 @@ turtles = [sally,bob,keith]
 while True:
     for a in turtles:
         a.seth(random.randint(75, 115))
-        t.forward(random.randint(1, 40))
+        a.forward(random.randint(1, 40))
 window.mainloop()
