@@ -1,5 +1,3 @@
-print("Hello from lesson 9")
-
 import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
