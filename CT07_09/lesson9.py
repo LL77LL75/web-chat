@@ -31,6 +31,7 @@ t.goto(400,250)
 sally = turtle.Turtle()
 sally.shape('turtle')
 sally.seth(90)
+sally.penup()
 sally.goto(-400,-250)
 
 # **Task 1b**: Drawing the finish line
