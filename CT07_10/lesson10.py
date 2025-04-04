@@ -58,10 +58,24 @@ window.setup(800, 400)
 #         d. Create a 'for' loop to draw a square
 # 4. Test out your program using 'drawSquare(-50, 50)'
 # 5. Use '.mainloop()' to keep the window open
-def square(x,y):
-    t.goto(x,y)
-    for i in range(4):
-        t.forward(40)
-        t.right(90)
-square(100,100)
+# def square(x,y):
+#     t.goto(x,y)
+#     for i in range(4):
+#         t.forward(40)
+#         t.right(90)
+# square(100,100)
+
+
+## Task 5: Function with return value (w/o turtle)
+# Define an 'isElderly()' function with 1 parameter, age,
+# and return True if the age is larger than, or equal to 65.
+
+# Using the 'isElderly()' function created, create a program
+# that asks the user for their age. Then use an 'if' statement
+# to print "You are eligible for an elderly discount" if
+# 'isElderly()' returns True.
+
+
+
+
 window.mainloop()
