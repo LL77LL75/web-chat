@@ -63,4 +63,4 @@ def square(x,y):
     for i in range(4):
         t.forward(40)
         t.right(90)
-s
+square
