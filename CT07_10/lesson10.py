@@ -115,6 +115,6 @@ square(100,100)
 
 def text(numbers):
     print("whatsapp me at https://wa.me/" + str(numbers))
-text(129426)
+text(12942669)
 window.mainloop()
 
