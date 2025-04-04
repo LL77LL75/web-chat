@@ -138,7 +138,8 @@ import random
 nums = []
 def randgen(times):
     for i in range(times):
-        nums.append()
+        nums.append(random.randint(1,100))
+        
 window.mainloop()
 
 
