@@ -81,5 +81,5 @@ def isElderly(age):
     else:
         return False
 if isElderly():
-    print
+    print()
 window.mainloop()
