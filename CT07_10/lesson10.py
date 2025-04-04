@@ -178,7 +178,7 @@ def generate_computer_move(move):
             return "siscors"
     else:
         return moves[random.randint(1,3)]
-determine
+determine_winner()
 print(generate_computer_move(input("MOVE ")))
 
 
