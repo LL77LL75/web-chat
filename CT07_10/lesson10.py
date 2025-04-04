@@ -92,4 +92,4 @@ window.setup(800, 400)
 # after drawing a square.
 def turtleCoord(turtle):
     return [turtle.xcor(),turtle.ycor()]
- 
+turtleCoord 
