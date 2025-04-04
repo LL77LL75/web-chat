@@ -115,6 +115,6 @@ square(100,100)
 
 def text(numbers):
     print(text + str(numbers))
-
+text(129426)
 window.mainloop()
 
