@@ -114,7 +114,7 @@ square(100,100)
 #    phone numbers generated is unique.
 
 def text(numbers):
-    print("" + str(numbers))
+    print("whatsapp me at " + str(numbers))
 text(129426)
 window.mainloop()
 
