@@ -60,4 +60,6 @@ window.mainloop()
 # 5. Use '.mainloop()' to keep the window open
 def square(x,y):
     t.goto(x,y)
-    
+    for i in range(4):
+        t.forward(40)
+        t.right(90)
