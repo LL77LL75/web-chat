@@ -138,7 +138,7 @@ import random
 nums = []
 def randgen(times):
     for i in range(times):
-        nums.
+        nums.append()
 window.mainloop()
 
 
