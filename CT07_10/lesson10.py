@@ -177,7 +177,7 @@ def generate_computer_move(move):
             winLose.append("pc")
             return "siscors"
     else:
-        choce
+        choice = ()
         return moves[random.randint(1,3)]
 print(generate_computer_move(input("MOVE ")))
 
