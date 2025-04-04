@@ -113,8 +113,27 @@ square(100,100)
 # 2. Modify your code so that each of the 100 random 8-digit
 #    phone numbers generated is unique.
 
-def text(numbers):
-    print("whatsapp me at https://wa.me/" + str(numbers))
-text(12942669)
+# def text(numbers):
+#     print("whatsapp me at https://wa.me/" + str(numbers))
+# text(12942669)
+
+## Task 8: Random Generator
+# Imagine you have a magic hat that can only hold numbers between
+# 1 and 100. This function, called "randgen", acts like shaking
+# that hat.
+
+# You tell "randgen" how many numbers to shake out of the hat
+# (let's call this number "shakes").
+
+# "randgen" will then shake out that many numbers and put them
+# in a bag.
+
+# Once it's done, "randgen" will tell you:
+# 1. How many numbers it shook out (the "shakes" number).
+# 2. The biggest number it shook out.
+# 3. The smallest number it shook out.
+# 4. The average of all the numbers it shook out
+
 window.mainloop()
+
 
