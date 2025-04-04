@@ -168,8 +168,9 @@ winLose=[]
 def generate_computer_move(move):
     if not (random.randint(1,100) == random.randint(1,100)):
         if move == "rock":
-            winlose.append("computer")
+            winlose.append("pc")
             return "paper"
+        
         if move == "siscors":
             return "stone"
         if move == "paper":
