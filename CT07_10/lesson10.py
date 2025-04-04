@@ -134,7 +134,7 @@ square(100,100)
 # 3. The smallest number it shook out.
 
 # 4. The average of all the numbers it shook out
-# import random
+import random
 # nums = []
 # def randgen(times):
 #     for i in range(times):
