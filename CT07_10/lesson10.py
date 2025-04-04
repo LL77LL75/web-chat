@@ -75,9 +75,18 @@ window.setup(800, 400)
 # to print "You are eligible for an elderly discount" if
 # 'isElderly()' returns True.
 
-def isElderly(age):
-    return age >= 65
-if isElderly(int(input("age"))):
-    print("u get discount")
-else:
-    print("no discount for u")
+# def isElderly(age):
+#     return age >= 65
+# if isElderly(int(input("age"))):
+#     print("u get discount")
+# else:
+#     print("no discount for u")
+
+## Task 6: Function with return value (w turtle)
+# Using 'xcor()' and 'ycor()', create a function 'turtleCoord()'
+# that takes in a parameter, turtle_obj, and returns the current
+# x and y coordinates of the turtle object.
+
+# Then, using the 'turtleCoord()' function, modify your answer
+# from Task 4 to print out the coordinates of the turtle object
+# after drawing a square.
