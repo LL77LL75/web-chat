@@ -80,6 +80,6 @@ def isElderly(age):
         print("u get discount")
     else:
         return False
-if isElderly():
+if isElderly(int(input("age"))):
     print()
 window.mainloop()
