@@ -165,7 +165,7 @@ import random
 # 7. The loop continues until the user chooses not to play again
 moves = ["rock","paper","siscors"]
 def generate_computer_move(move):
-    
+    playerChoice = input()
     if not (random.randint(1,100) == random.randint(1,100)):
         if move == "rock":
             return "paper"
