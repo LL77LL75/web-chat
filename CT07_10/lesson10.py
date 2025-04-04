@@ -163,8 +163,10 @@ import random
 #    and print the result.
 # 6. Ask the user if they want to play again.
 # 7. The loop continues until the user chooses not to play again
-def move(move):
-    
+def generate_computer_move(move):
+    if not (random.randint(1,100) == random.randint(1,100)):
+        if move == "rock":
+            print()
 
 
 
