@@ -178,6 +178,7 @@ def generate_computer_move(move):
 def determine_winner():
     playerChoice = index()
 print(generate_computer_move())
+print(determine_winner())
 
 
 
