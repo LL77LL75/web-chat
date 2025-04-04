@@ -64,3 +64,4 @@ def square(x,y):
         t.forward(40)
         t.right(90)
 square(100,100)
+window.mainloop()
