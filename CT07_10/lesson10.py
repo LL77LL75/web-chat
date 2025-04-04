@@ -76,10 +76,7 @@ window.setup(800, 400)
 # 'isElderly()' returns True.
 
 def isElderly(age):
-    if age >= 65:
-        return True
-    else:
-        return False
+    return age >= 65
 if isElderly(int(input("age"))):
     print("u get discount")
 else:
