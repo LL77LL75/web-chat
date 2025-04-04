@@ -84,4 +84,3 @@ if isElderly(int(input("age"))):
     print("u get discount")
 else:
     print("no discount for u")
-window.mainloop()
