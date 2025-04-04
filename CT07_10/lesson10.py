@@ -171,9 +171,10 @@ def generate_computer_move(move):
             winLose.append("pc")
             return "paper"
         if move == "siscors":
-            
+            winLose.append("pc")
             return "stone"
         if move == "paper":
+            winLose.append("pc")
             return "siscors"
     else:
         return moves[random.randint(1,3)]
