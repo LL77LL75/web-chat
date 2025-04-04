@@ -139,7 +139,7 @@ nums = []
 def randgen(times):
     for i in range(times):
         nums.append(random.randint(1,100))
-print("")
+print("numbers generated")
 window.mainloop()
 
 
