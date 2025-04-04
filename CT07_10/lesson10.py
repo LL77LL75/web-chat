@@ -166,7 +166,7 @@ import random
 def generate_computer_move(move):
     if not (random.randint(1,100) == random.randint(1,100)):
         if move == "rock":
-            print()
+            print("paper")
 
 
 
