@@ -90,8 +90,30 @@ square(100,100)
 # Then, using the 'turtleCoord()' function, modify your answer
 # from Task 4 to print out the coordinates of the turtle object
 # after drawing a square.
-def turtleCoord(turtle):
-    return turtle.xcor(),turtle.ycor()
+# def turtleCoord(turtle):
+#     return turtle.xcor(),turtle.ycor()
 
-print(turtleCoord(t))
+# print(turtleCoord(t))
+## Task 7: Whatsapp link generator
+# Imagine you have a website and you want to include a button or
+# link that allows people to easily chat with you on Whatsapp.
+
+# Can you write a function called whatsappMe() that takes
+# someone's phone number (without any dashes or spaces) and
+# creates a link that opens a chat with them on Whatsapp?
+
+# For example, if given '98765432' as the argument, the function
+# should print: 'Whatsapp me at https://wa.me/6598765432'
+
+# **Bonus Challenge**
+# 1. Write some code that creates a list of 100 random 8-digit
+#    phone numbers that starts with either '8' or '9'. Then using
+#    the whatsappMe() function, print a list of WhatsApp links
+#    for each of the numbers.
+# 2. Modify your code so that each of the 100 random 8-digit
+#    phone numbers generated is unique.
+
+
+
 window.mainloop()
+
