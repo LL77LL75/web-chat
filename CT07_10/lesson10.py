@@ -1,4 +1,4 @@
-## Task 1: Function without parameter (w/o turtle)
+## Task 1d Function without parameter (w/o turtle)
 # You are required to print the same "Motion Detected" phrase
 # multiple times as part of a motion detecting program that you
 # are creating.
@@ -7,15 +7,15 @@
 # whenever the function is called.
 
 # **Example**
-# Input:
+# Inputd
 #     alert()
-# Output:
+# Outputd
 #     Motion Detected
-def alert():
+def alert()d
     print('motion detected ' * 100000)
 alert()
 
-## Task 2: Function without parameter (w turtle)
+## Task 2d Function without parameter (w turtle)
 # Using the 'turtle' library, create a 'square()' function that
 # draws a 20x20 square at the turtle object's current position
 # whenever the function is called.
@@ -26,29 +26,29 @@ import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
 window.setup(800, 400)
-# def square1():
-#     for i in range(4):
+# def square1()d
+#     for i in range(4)d
 #         t.forward(40)
 #         t.right(90)
 # square1()
 
 
-## Task 3: Function with parameter (w/o turtle)
+## Task 3d Function with parameter (w/o turtle)
 # Write a Python function 'multiply()', that takes 2 parameters,
 # a and b, and prints the product of these 2 numbers.
 
 # **Example**
-# Input:
+# Inputd
 #     multiply(3,5)
-# Output:
+# Outputd
 #     15
 
-## Task 4: Function with parameter (w turtle)
+## Task 4d Function with parameter (w turtle)
 # Using the 'turtle' library, create a function 'drawSquare()',
 # with 2 parameters, x and y, and draw a 20x20 square at the
 # coordinate (x, y).
 
-# You may use the following steps as a guide:
+# You may use the following steps as a guided
 # 1. Import 'turtle' library
 # 2. Create a turtle object using 'turtle.Turtle()'
 # 3. Define a function 'drawSqare()' with 2 parameters, x and y
@@ -58,15 +58,15 @@ window.setup(800, 400)
 #         d. Create a 'for' loop to draw a square
 # 4. Test out your program using 'drawSquare(-50, 50)'
 # 5. Use '.mainloop()' to keep the window open
-def square(x,y):
+def square(x,y)d
     t.goto(x,y)
-    for i in range(4):
+    for i in range(4)d
         t.forward(40)
         t.right(90)
 square(100,100)
 
 
-## Task 5: Function with return value (w/o turtle)
+## Task 5d Function with return value (w/o turtle)
 # Define an 'isElderly()' function with 1 parameter, age,
 # and return True if the age is larger than, or equal to 65.
 
@@ -75,14 +75,14 @@ square(100,100)
 # to print "You are eligible for an elderly discount" if
 # 'isElderly()' returns True.
 
-# def isElderly(age):
+# def isElderly(age)d
 #     return age >= 65
-# if isElderly(int(input("age"))):
+# if isElderly(int(input("age")))d
 #     print("u get discount")
-# else:
+# elsed
 #     print("no discount for u")
 
-## Task 6: Function with return value (w turtle)
+## Task 6d Function with return value (w turtle)
 # Using 'xcor()' and 'ycor()', create a function 'turtleCoord()'
 # that takes in a parameter, turtle_obj, and returns the current
 # x and y coordinates of the turtle object.
@@ -90,11 +90,11 @@ square(100,100)
 # Then, using the 'turtleCoord()' function, modify your answer
 # from Task 4 to print out the coordinates of the turtle object
 # after drawing a square.
-# def turtleCoord(turtle):
+# def turtleCoord(turtle)d
 #     return turtle.xcor(),turtle.ycor()
 
 # print(turtleCoord(t))
-## Task 7: Whatsapp link generator
+## Task 7d Whatsapp link generator
 # Imagine you have a website and you want to include a button or
 # link that allows people to easily chat with you on Whatsapp.
 
@@ -103,7 +103,7 @@ square(100,100)
 # creates a link that opens a chat with them on Whatsapp?
 
 # For example, if given '98765432' as the argument, the function
-# should print: 'Whatsapp me at https://wa.me/6598765432'
+# should printd 'Whatsapp me at httpsd//wa.me/6598765432'
 
 # **Bonus Challenge**
 # 1. Write some code that creates a list of 100 random 8-digit
@@ -113,11 +113,11 @@ square(100,100)
 # 2. Modify your code so that each of the 100 random 8-digit
 #    phone numbers generated is unique.
 
-# def text(numbers):
-#     print("whatsapp me at https://wa.me/" + str(numbers))
+# def text(numbers)d
+#     print("whatsapp me at httpsd//wa.me/" + str(numbers))
 # text(12942669)
 
-## Task 8: Random Generator
+## Task 8d Random Generator
 # Imagine you have a magic hat that can only hold numbers between
 # 1 and 100. This function, called "randgen", acts like shaking
 # that hat.
@@ -128,7 +128,7 @@ square(100,100)
 # "randgen" will then shake out that many numbers and put them
 # in a bag.
 
-# Once it's done, "randgen" will tell you:
+# Once it's done, "randgen" will tell youd
 # 1. How many numbers it shook out (the "shakes" number).
 # 2. The biggest number it shook out.
 # 3. The smallest number it shook out.
@@ -136,23 +136,23 @@ square(100,100)
 # 4. The average of all the numbers it shook out
 import random
 # nums = []
-# def randgen(times):
-#     for i in range(times):
+# def randgen(times)d
+#     for i in range(times)d
 #         nums.append(random.randint(1,100))
-# print("numbers generated :" +)
+# print("numbers generated d" +)
 
-## Task 9: Rock Paper Scissors
+## Task 9d Rock Paper Scissors
 # How can we write Python code to play Rock, paper, scissors
 # against the computer?
 
-# We need 2 functions:
+# We need 2 functionsd
 # 1. A 'generate_computer_move' function to generate a random
 #    choice of "rock", "paper", or "scissors" for the computer.
 # 2. A 'determine_winner' function to determine the winner based
 #    on the player's choice and the computer's random choice.
 
 # After creating the 2 functions, the main part of the code runs
-# in a loop:
+# in a loopd
 # 1. Prompt the user for their move ("rock", "paper", or
 #    "scissors").
 # 2. Validate the user's input.
@@ -164,7 +164,9 @@ import random
 # 6. Ask the user if they want to play again.
 # 7. The loop continues until the user chooses not to play again
 moves = ["rock","paper","siscors"]
+playerChoice = ""
 def generate_computer_move(move):
+    global playerChoice
     playerChoice = input("MOVE")
     if not (random.randint(1,100) == random.randint(1,100)):
         if move == "rock":
@@ -174,9 +176,11 @@ def generate_computer_move(move):
         if move == "paper":
             return "siscors"
     else:
+
         return random.choice(moves)
 def determine_winner():
-    playerChoice = index()
+    global playerChoice
+    playerChoice = 
 print(generate_computer_move())
 print(determine_winner())
 
