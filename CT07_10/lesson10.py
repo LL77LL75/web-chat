@@ -77,5 +77,5 @@ window.setup(800, 400)
 
 def isElderly(age):
     if age >= 65:
-        
+        print()
 window.mainloop()
