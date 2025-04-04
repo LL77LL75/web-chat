@@ -134,12 +134,46 @@ square(100,100)
 # 3. The smallest number it shook out.
 
 # 4. The average of all the numbers it shook out
-import random
-nums = []
-def randgen(times):
-    for i in range(times):
-        nums.append(random.randint(1,100))
-print("numbers generated")
+# import random
+# nums = []
+# def randgen(times):
+#     for i in range(times):
+#         nums.append(random.randint(1,100))
+# print("numbers generated :" +)
+
+## Task 9: Rock Paper Scissors
+# How can we write Python code to play Rock, paper, scissors
+# against the computer?
+
+# We need 2 functions:
+# 1. A 'generate_computer_move' function to generate a random
+#    choice of "rock", "paper", or "scissors" for the computer.
+# 2. A 'determine_winner' function to determine the winner based
+#    on the player's choice and the computer's random choice.
+
+# After creating the 2 functions, the main part of the code runs
+# in a loop:
+# 1. Prompt the user for their move ("rock", "paper", or
+#    "scissors").
+# 2. Validate the user's input.
+# 3. Generate the computer's move using the
+#    'generate_computer_move' function.
+# 4. Print both the player's and computer's moves.
+# 5. Determine the winner using the 'determine_winner' function
+#    and print the result.
+# 6. Ask the user if they want to play again.
+# 7. The loop continues until the user chooses not to play again
+
+# **Bonus Challenge**
+# 1. Keep track of the score for both you and the computer and
+#    display the current score after each round.
+# 2. Add an option at the start of the program to allow for
+#    single or 2-player mode. In 2-player mode, allow 2 players
+#    to take turns choosing their moves and determine the winner
+#    between them.
+# 3. When the game ends, pick a random forfeit from a list that
+#    the loser have to do.
+
 window.mainloop()
 
 
