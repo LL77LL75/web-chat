@@ -26,11 +26,11 @@ import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
 window.setup(800, 400)
-def square():
+def square1():
     for i in range(4):
         t.forward(40)
         t.right(90)
-square()
+square1()
 window.mainloop()
 
 ## Task 3: Function with parameter (w/o turtle)
@@ -58,4 +58,5 @@ window.mainloop()
 #         d. Create a 'for' loop to draw a square
 # 4. Test out your program using 'drawSquare(-50, 50)'
 # 5. Use '.mainloop()' to keep the window open
-
+def square(x,y):
+    
