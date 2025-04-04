@@ -77,11 +77,11 @@ window.setup(800, 400)
 
 def isElderly(age):
     if age >= 65:
-        print("u get discount")
+        return True
     else:
         return False
 if isElderly(int(input("age"))):
-    print()
+    print("u get discount")
 else:
     print("no discount for u")
 window.mainloop()
