@@ -132,8 +132,13 @@ square(100,100)
 # 1. How many numbers it shook out (the "shakes" number).
 # 2. The biggest number it shook out.
 # 3. The smallest number it shook out.
-# 4. The average of all the numbers it shook out
 
+# 4. The average of all the numbers it shook out
+import random
+nums = []
+def randgen(times):
+    for i in range(times):
+        nums.
 window.mainloop()
 
 
