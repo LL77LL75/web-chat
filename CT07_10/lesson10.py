@@ -75,7 +75,7 @@ window.setup(800, 400)
 # to print "You are eligible for an elderly discount" if
 # 'isElderly()' returns True.
 
-
-
-
+def isElderly(age):
+    if age >= 65:
+        
 window.mainloop()
