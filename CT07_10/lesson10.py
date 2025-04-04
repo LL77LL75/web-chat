@@ -164,6 +164,16 @@ import random
 # 6. Ask the user if they want to play again.
 # 7. The loop continues until the user chooses not to play again
 
+
+
+
+
+
+
+
+
+
+
 # **Bonus Challenge**
 # 1. Keep track of the score for both you and the computer and
 #    display the current score after each round.
@@ -173,7 +183,6 @@ import random
 #    between them.
 # 3. When the game ends, pick a random forfeit from a list that
 #    the loser have to do.
-
 window.mainloop()
 
 
