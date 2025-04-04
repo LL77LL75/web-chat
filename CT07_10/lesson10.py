@@ -26,11 +26,11 @@ import turtle
 t = turtle.Turtle()
 window = turtle.Screen()
 window.setup(800, 400)
-def square1():
-    for i in range(4):
-        t.forward(40)
-        t.right(90)
-square1()
+# def square1():
+#     for i in range(4):
+#         t.forward(40)
+#         t.right(90)
+# square1()
 
 
 ## Task 3: Function with parameter (w/o turtle)
@@ -63,4 +63,4 @@ def square(x,y):
     for i in range(4):
         t.forward(40)
         t.right(90)
-square(1)
+square(100,100)
