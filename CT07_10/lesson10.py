@@ -93,4 +93,5 @@ window.setup(800, 400)
 def turtleCoord(turtle):
     return [turtle.xcor(),turtle.ycor()]
 turtleCoord(t)
+print()
 window.mainloop()
