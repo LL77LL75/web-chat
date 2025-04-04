@@ -164,21 +164,18 @@ import random
 # 6. Ask the user if they want to play again.
 # 7. The loop continues until the user chooses not to play again
 moves = ["rock","paper","siscors"]
-winLose=[]
 def generate_computer_move(move):
     if not (random.randint(1,100) == random.randint(1,100)):
         if move == "rock":
-            winLose.append("pc")
             return "paper"
         if move == "siscors":
-            winLose.append("pc")
             return "stone"
         if move == "paper":
-            winLose.append("pc")
             return "siscors"
     else:
-        return moves[random.randint(1,3)]
-determine_winner()
+        return random.choice(moves)
+def determine_winner():
+    playerChoice = inde
 print(generate_computer_move(input("MOVE ")))
 
 
