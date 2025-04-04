@@ -113,7 +113,8 @@ square(100,100)
 # 2. Modify your code so that each of the 100 random 8-digit
 #    phone numbers generated is unique.
 
-
+def text(numbers):
+    te
 
 window.mainloop()
 
