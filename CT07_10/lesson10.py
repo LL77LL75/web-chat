@@ -90,3 +90,5 @@ window.setup(800, 400)
 # Then, using the 'turtleCoord()' function, modify your answer
 # from Task 4 to print out the coordinates of the turtle object
 # after drawing a square.
+def turtleCoord(turtle):
+    turtle.xcor
