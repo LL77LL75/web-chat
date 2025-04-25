@@ -146,7 +146,7 @@ def check_win(board) :
         a,b,c = i
         if (a == b and b == c) and (a != " "):
             return True
-    return
+    return False
 ## Task 12.4b (check_win)
 # Create a 'check_win' function with 1 parameter, 'board'. This
 # function must:
