@@ -104,7 +104,7 @@ def getPlayerMove(board,currentPlayer) :
             getPlayerMove(board)
     else:
         print("Invalid input. Please enter a number.")
-        getPlayerMove(board)
+        getPlayerMove(board,currentPlayer)
 
 
 
