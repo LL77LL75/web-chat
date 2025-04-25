@@ -100,10 +100,7 @@ def getPlayerMove(board) :
         print("Invalid input. Please enter a number.")
         getPlayerMove(board)
 
-initaliseBoard()
-while True:
-    printBoard(board)
-    getPlayerMove(board)
+
 
 ## Task 12.3c (get_player_move)
 # Modify your 'get_player_move' function to:
@@ -133,3 +130,36 @@ while True:
 # 3. All possible diagonal winning conditions
 
 # There should be 8 items in total.
+win_conditions = [
+    [board[0][0],board[0][1],board[0][2]],
+    [board[1][0],board[1][1],board[1][2]],
+    [board[2][0],board[2][1],board[2][2]],
+    [board[0][0],board[1][0],board[2][0]],
+    [board[1][0],board[1][1],board[1][2]],
+    [board[0][0],board[1][1],board[2][2]],
+    [board[0][0],board[1][1],board[2][2]],
+    [board[0][2],board[1][1],board[2][0]]
+]
+def check_win(board) :
+
+    for i in win_conditions:
+        a,b,c = i
+        if (a == b and b == c) and (a != " "):
+            
+## Task 12.4b (check_win)
+# Create a 'check_win' function with 1 parameter, 'board'. This
+# function must:
+# 1. Contain the 'win_conditions' list you have created earlier
+# 2. Loop through each winning condition to check if all 3 cells
+#    in the winning condition are the same symbol, and are not
+#    spaces (' ').
+# 3. Return 'True' if the above condition is met. Else, return
+#    'False'
+
+
+
+
+initaliseBoard()
+while True:
+    printBoard(board)
+    getPlayerMove(board)
