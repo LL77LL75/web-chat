@@ -85,7 +85,7 @@ def printBoard(board) :
             print("\n----------")
     print("\n")
 def getPlayerMove(board,currentPlayer) :
-    move =  input("where do you want to place?(1-9) ")
+    move =  input(str(currentPlayer) , "where do you want to place?(1-9) ")
     if move.isdigit():
         move = int(move)
         move -= 1
@@ -158,6 +158,21 @@ def check_win(board) :
 #    'False'
 
 
+## Task 13.3f (get_player_move)
+# Modify your 'get_player_move' function to:
+# 1. Take in 1 more parameter, 'current_player'. This parameter
+#    will determine the current player ('X' or '0').
+# 2. Modify the code to dynamically assign either 'X' or '0' to
+#    the board depending on who the current player is.
+# 3. Modify the 'print()' function to call for the current player
+#    e.g. "Player X, enter your move (1-9): "
+
+# **Main game loop**
+# 1. Initiate a new variable 'current_player' and assign it 'X'
+# 2. Include 'current_player' as an argument when calling for
+#    the 'get_player_move' function
+# 3. Test your program by changing 'current_player' between 'X'
+#    and '0'
 
 
 initaliseBoard()
