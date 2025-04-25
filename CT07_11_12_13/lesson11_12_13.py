@@ -91,7 +91,7 @@ def printBoard(board) :
             print("\n----------")
     print("\n")
 def getPlayerMove(board,currentPlayer) :
-    move =  input(currentPlayer , "where do you want to place?(1-9) ")
+    move =  input(currentPlayer + "where do you want to place?(1-9) ")
     if move.isdigit():
         move = int(move)
         move -= 1
