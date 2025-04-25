@@ -64,6 +64,7 @@
 # 2. Print the game board
 # 3. Ask the user for a move
 currentPlayer = ""
+from random import randint
 if random.randint(0,1) == 0:
     currentPlayer = "0"
 else:
