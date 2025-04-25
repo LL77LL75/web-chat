@@ -214,7 +214,7 @@ while True:
     getPlayerMove(board,currentPlayer)
     if check_win(board):
         printBoard(board)
-        print("YO " + "winner" + " WON")
+        print("YO " + currentPlayer + " WON")
         break
     switch_player()
     check_full(board)
