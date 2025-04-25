@@ -84,7 +84,6 @@ def printBoard(board) :
         if cell_number < 9:
             print("\n----------")
     print("\n")
-    
 def getPlayerMove(board,currentPlayer) :
     move =  input(str(currentPlayer) , "where do you want to place?(1-9) ")
     if move.isdigit():
