@@ -10,4 +10,4 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 pygame.display.flip()
-pygame.QUIT()
+pygame.quit()
