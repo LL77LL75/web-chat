@@ -64,6 +64,8 @@
 # 2. Print the game board
 # 3. Ask the user for a move
 currentPlayer = ""
+if random.randint(0,1) == 0:
+    
 board = []
 def initaliseBoard():
     for i in range(3):
