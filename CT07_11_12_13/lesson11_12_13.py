@@ -164,4 +164,4 @@ initaliseBoard()
 while True:
     printBoard(board)
     getPlayerMove(board)
-    
+    check_win(board)
