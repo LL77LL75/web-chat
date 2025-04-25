@@ -101,7 +101,7 @@ def getPlayerMove(board,currentPlayer) :
             board[row][col] = currentPlayer
         else:
             print("This spot is taken, take a different one. ")
-            getPlayerMove(board)
+            getPlayerMove(board,currentPlayer)
     else:
         print("Invalid input. Please enter a number.")
         getPlayerMove(board,currentPlayer)
