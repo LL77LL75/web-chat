@@ -186,6 +186,7 @@ def check_win(board) :
 # 1. Return '0' if 'current_player' is 'X'
 # 2. Else, return 'X'
 def switch_player():
+    global currentPlayer
     if currentPlayer == "X":
         currentPlayer = "0"
     else:
