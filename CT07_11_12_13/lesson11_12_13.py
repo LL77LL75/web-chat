@@ -141,7 +141,7 @@ def check_win(board) :
     [board[0][0],board[1][1],board[2][2]],
     [board[0][0],board[1][1],board[2][2]],
     [board[0][2],board[1][1],board[2][0]]
-    ]
+]
     for i in win_conditions:
         a,b,c = i
         if (a == b and b == c) and (a != " "):
