@@ -165,5 +165,5 @@ while True:
     printBoard(board)
     getPlayerMove(board)
     if check_win(board):
+        printBoard
         break
-    
