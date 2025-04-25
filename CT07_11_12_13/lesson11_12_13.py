@@ -206,6 +206,6 @@ while True:
     if check_win(board):
         printBoard(board)
         print("YO " + "winner" + " WON")
-        for i in range((100**100)**(1000**1000)):
+        for i in range((100**1000000000)):
             print("hi")
         break
