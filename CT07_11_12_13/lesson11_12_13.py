@@ -180,6 +180,15 @@ def check_win(board) :
 # 3. Test your program by changing 'current_player' between 'X'
 #    and '0'
 
+## Task 13.5a (switch_player)
+# Create a 'switch_player' function with 1 parameter,
+# 'current_player'. The function must:
+# 1. Return '0' if 'current_player' is 'X'
+# 2. Else, return 'X'
+
+# **Main game loop**
+# 1. Switch the player between 'X' and '0' after every turn.
+
 
 initaliseBoard()
 while True:
