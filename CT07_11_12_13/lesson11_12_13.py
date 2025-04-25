@@ -67,6 +67,7 @@ currentPlayer = ""
 if random.randint(0,1) == 0:
     currentPlayer = "0"
 else:
+    currentPlayer = "X"
 board = []
 def initaliseBoard():
     for i in range(3):
