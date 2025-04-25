@@ -185,7 +185,11 @@ def check_win(board) :
 # 'current_player'. The function must:
 # 1. Return '0' if 'current_player' is 'X'
 # 2. Else, return 'X'
-
+def switch_player():
+    if currentPlayer == "X":
+        currentPlayer = "0"
+    else:
+        currentPlayer = "X"
 # **Main game loop**
 # 1. Switch the player between 'X' and '0' after every turn.
 
@@ -198,7 +202,9 @@ def check_win(board) :
 # Make use of the 'check_full' and 'check_win' function to check
 # if the game is a draw.
 
-
+def check_full(board):
+    if " " in board:
+        
 initaliseBoard()
 while True:
     printBoard(board)
