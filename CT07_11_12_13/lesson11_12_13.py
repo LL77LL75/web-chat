@@ -92,7 +92,7 @@ def printBoard(board) :
     print("\n")
 def getPlayerMove(board,currentPlayer) :
     move =  input(currentPlayer + ", where do you want to place?(1-9) ")
-    if move.isdigit() and move:
+    if move.isdigit() and move<=9:
         move = int(move)
         move -= 1
         row = move //3
