@@ -65,7 +65,8 @@
 # 3. Ask the user for a move
 currentPlayer = ""
 if random.randint(0,1) == 0:
-    
+    currentPlayer = "0"
+else:
 board = []
 def initaliseBoard():
     for i in range(3):
