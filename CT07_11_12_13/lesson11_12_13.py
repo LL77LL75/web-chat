@@ -132,7 +132,16 @@ def getPlayerMove(board) :
 # There should be 8 items in total.
 
 def check_win(board) :
-
+    win_conditions = [
+    [board[0][0],board[0][1],board[0][2]],
+    [board[1][0],board[1][1],board[1][2]],
+    [board[2][0],board[2][1],board[2][2]],
+    [board[0][0],board[1][0],board[2][0]],
+    [board[1][0],board[1][1],board[1][2]],
+    [board[0][0],board[1][1],board[2][2]],
+    [board[0][0],board[1][1],board[2][2]],
+    [board[0][2],board[1][1],board[2][0]]
+    ]
     for i in win_conditions:
         a,b,c = i
         if (a == b and b == c) and (a != " "):
