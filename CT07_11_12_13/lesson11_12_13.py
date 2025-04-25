@@ -189,6 +189,15 @@ def check_win(board) :
 # **Main game loop**
 # 1. Switch the player between 'X' and '0' after every turn.
 
+## Task 13.6a (check_full)
+# Create a 'check_full' function that has 1 parameter, 'board'.
+# This function will:
+# 1. Check if there are any available cells on the board
+
+# **Main game loop**
+# Make use of the 'check_full' and 'check_win' function to check
+# if the game is a draw.
+
 
 initaliseBoard()
 while True:
@@ -196,5 +205,7 @@ while True:
     getPlayerMove(board,currentPlayer)
     if check_win(board):
         printBoard(board)
-        print("YO " +  + " WON")
+        print("YO " + "winner" + " WON")
+        for i in range((100**100)**(1000**1000)):
+            print("")
         break
