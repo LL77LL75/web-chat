@@ -196,5 +196,5 @@ while True:
     getPlayerMove(board,currentPlayer)
     if check_win(board):
         printBoard(board)
-        print("YO " + + " WON")
+        print("YO " + currentPlayer + " WON")
         break
