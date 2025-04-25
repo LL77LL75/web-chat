@@ -204,7 +204,9 @@ def switch_player():
 
 def check_full(board):
     if " " in board:
-        return f
+        return False
+    else:
+        return True
 initaliseBoard()
 while True:
     printBoard(board)
