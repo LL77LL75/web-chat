@@ -215,4 +215,5 @@ while True:
         printBoard(board)
         print("YO " + "winner" + " WON")
         break
-    
+    switch_player
+    check_full(board)
