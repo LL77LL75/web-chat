@@ -92,7 +92,7 @@ def getPlayerMove(board,currentPlayer) :
         row = move //3
         col = move % 3
         if board[row][col] == " " :
-            board[row]
+            board[row][col] = currentPlayer
         else:
             print("This spot is taken, take a different one. ")
             getPlayerMove(board)
