@@ -123,3 +123,13 @@ while True:
 #    the cell.
 # 2. Else, print "That spot is already taken or invalid. Please
 #    choose another."
+
+
+## Task 12.4a (check_win)
+# Create a 'win_conditions' list that holds each of the following
+# as a separate item:
+# 1. All possible horizontal winning conditions
+# 2. All possible vertical winning conditions
+# 3. All possible diagonal winning conditions
+
+# There should be 8 items in total.
