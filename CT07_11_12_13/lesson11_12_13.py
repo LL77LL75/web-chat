@@ -63,7 +63,7 @@
 # 1. Initialise a game board
 # 2. Print the game board
 # 3. Ask the user for a move
-current
+currentPlayer = ""
 board = []
 def initaliseBoard():
     for i in range(3):
