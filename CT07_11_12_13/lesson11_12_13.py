@@ -178,7 +178,7 @@ def check_win(board) :
 initaliseBoard()
 while True:
     printBoard(board)
-    getPlayerMove(board)
+    getPlayerMove(board,currentPlayer)
     if check_win(board):
         printBoard(board)
         print("YO YOU WON")
