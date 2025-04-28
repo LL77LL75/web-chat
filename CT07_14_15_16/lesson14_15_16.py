@@ -8,7 +8,7 @@ pygame.display.set_caption("Pong Game")
 paddle_width = 20
 paddle_height = 100
 paddle1_x = 10
-paddle1_y = screen_height
+paddle1_y = screen_height//2 - pad
 running = True
 while running:
     for event in pygame.event.get():
