@@ -19,6 +19,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-    pygame.draw.rect(screen,white, (0, 0, screen_width, screen_height))
+    pygame.draw.rect(screen,moon_glow, (0, 0, screen_width, screen_height))
     pygame.display.flip()
 pygame.quit()
