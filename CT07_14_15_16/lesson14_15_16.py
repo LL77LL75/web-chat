@@ -6,7 +6,7 @@ screen_height = 600
 screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption("Pong Game")
 paddle_width = 20
-
+paddle_height = 100
 running = True
 while running:
     for event in pygame.event.get():
