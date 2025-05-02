@@ -7,7 +7,7 @@ screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption("Pong Game")
 white = ((255,255,255))
 red = ((255,0,0))
-light_gray = ((200,200,200))
+gray = ((50,50,50))
 paddle_width = 20
 paddle_height = 100
 paddle1_x = 10
@@ -17,6 +17,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-    pygame.draw.rect(screen,light_gray, (0, 0, screen_width, screen_height))
+    pygame.draw.rect(screen,gray, (0, 0, screen_width, screen_height))
     pygame.display.flip()
 pygame.quit()
