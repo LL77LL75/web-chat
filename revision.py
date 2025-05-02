@@ -20,7 +20,6 @@ print(classes[0][0:2]+classes[1][0:2])
 awardees = ["Adam", "Esther", "Isaac"]
 
 def flatten(List2d):
-    List1d = [] 
     for i in List2d:
         for a in i:
             List1d.append(a)
