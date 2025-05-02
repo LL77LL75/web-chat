@@ -22,7 +22,9 @@ while running:
             running = False
         keys = pygame.key.get_pressed()
         if keys[pygame.k_w] and paddle1_y >0:
-            paddle1_y
+            paddle1_y-=1
+        if keys[pygame.k_s] and paddle1_y < screen_height - paddle_height:
+            paddle1_y+=1
     pygame.draw.rect(screen,gray, (0, 0, screen_width, screen_height))
     pygame.draw.rect(screen,white,(paddle1_x,paddle1_y,paddle_width,paddle_height))
     pygame.draw.rect(screen,white,(paddle2_x,paddle2_y,paddle_width,paddle_height))
