@@ -51,6 +51,6 @@ for i in VeryLongList:
         odd.append(i)
     else:
         even.append(i)
-
+print(min(odd))
 # Odd - Smallest: 3, Largest: 91, Mean: 52.375, Length: 48
 # Even - Smallest: 8, Largest: 100, Mean: 49.0, Length: 52
