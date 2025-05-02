@@ -26,9 +26,8 @@ def flatten(List2d, List1d):
     return List1d
 def intersect(class1,class2):
     for i in class1:
-        for a in class2:
-            if i == a:
-                
+        if i in class2:
+            return
 List1d = []
 print(flatten(classes,List1d))
 # Q5 Statistics
