@@ -36,7 +36,7 @@ print(flatten(classes,List1d))
 # 3. For each list, get the smallest, largest, and mean value
 # Sample output
 import random
-x = input
+x = input("max value pls")
 VeryLongList = []
 for i in range(x):
     VeryLongList.append(random.randint(1,x))
