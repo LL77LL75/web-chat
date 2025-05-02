@@ -20,7 +20,7 @@ print(classes[0][0:2]+classes[1][0:2])
 def flatten(List2d, List1d):
     for i in List2d:
         for a in i:
-            List
+            List1d.append(a)
 
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
