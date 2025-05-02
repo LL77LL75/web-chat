@@ -21,7 +21,7 @@ def flatten(List2d, List1d):
     for i in List2d:
         for a in i:
             List1d.append(a)
-    return a
+    return List1d
 List1d = []
 print(flatten(classes,List1d))
 # Q5 Statistics
