@@ -40,7 +40,7 @@ print(intersect(awardees,flatten(classes)))
 # 3. For each list, get the smallest, largest, and mean value
 # Sample output
 import random
-x = int(input("max value pls"))
+x = int(input("max value pls "))
 VeryLongList = []
 for i in range(x):
     VeryLongList.append(random.randint(1,x))
