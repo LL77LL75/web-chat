@@ -19,11 +19,11 @@ print(classes[0][0:2]+classes[1][0:2])
 # Using flatten and intersect, get the answer 
 awardees = ["Adam", "Esther", "Isaac"]
 
-def flatten(List2d, List):
+def flatten(List2d):
     for i in List2d:
         for a in i:
-            List.append(a)
-    return List
+            List1d.append(a)
+    return List1d
 def intersect(class1,class2,class3):
     for i in class1:
         if i in class2:
