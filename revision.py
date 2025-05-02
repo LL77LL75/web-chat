@@ -16,17 +16,13 @@ print(classes[0][0:2]+classes[1][0:2])
 # Define a function flatten(...) that takes a 2d list and returns a 1d list
 # Define a function intersect(..., ...) that takes 2 1d lists and returns the common elements in a list
 # Using flatten and intersect, get the answer 
-List2d = [
-    [1,2,3],
-    [4,5,6],
-    [6,7,8]
-]
+
 def flatten(List2d, List1d):
     for i in List2d:
         for a in i:
             List1d.append(a)
     return a
-print()
+print(c)
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
 # 2. Partition them into 2 lists, even and odd
