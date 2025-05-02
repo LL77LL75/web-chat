@@ -25,7 +25,7 @@ while running:
             paddle1_y-=1
         if keys[pygame.K_s] and paddle1_y < screen_height - paddle_height:
             paddle1_y+=1
-    pygame.draw.rect(screen,gray, (0, 0, screen_width, screen_height))
+    screen.fill(gray)
     pygame.draw.rect(screen,white,(paddle1_x,paddle1_y,paddle_width,paddle_height))
     pygame.draw.rect(screen,white,(paddle2_x,paddle2_y,paddle_width,paddle_height))
     pygame.display.flip()
