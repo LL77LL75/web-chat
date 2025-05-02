@@ -21,7 +21,8 @@ def flatten(List2d, List1d):
     for i in List2d:
         for a in i:
             List1d.append(a)
-
+    return a
+print()
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
 # 2. Partition them into 2 lists, even and odd
