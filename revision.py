@@ -29,6 +29,7 @@ print(flatten(classes,List1d))
 # 2. Partition them into 2 lists, even and odd
 # 3. For each list, get the smallest, largest, and mean value
 # Sample output
-
+import random
+VeryLongList = []
 # Odd - Smallest: 3, Largest: 91, Mean: 52.375, Length: 48
 # Even - Smallest: 8, Largest: 100, Mean: 49.0, Length: 52
