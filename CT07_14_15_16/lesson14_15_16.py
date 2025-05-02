@@ -12,7 +12,7 @@ paddle_width = 20
 paddle_height = 100
 paddle1_x = 10
 paddle1_y = screen_height//2 - paddle_height // 2
-
+pygame.draw
 paddle2_x = screen_width - 10 
 paddle2_y = screen_height//2 - paddle_height // 2
 running = True
