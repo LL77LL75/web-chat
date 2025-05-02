@@ -25,7 +25,7 @@ def flatten(List2d):
         for a in i:
             List1d.append(a)
     return List1d
-def intersect(class1,class2,class3):
+def intersect(class1,class2):
     for i in class1:
         if i in class2:
             class3.append(i)
