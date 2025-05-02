@@ -34,7 +34,7 @@ def intersect(class1,class2):
 blank_list = []
 print(intersect(awardees, classes))
 List1d = []
-print(flatten(classes,List1d))
+print(flatten(classes))
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
 # 2. Partition them into 2 lists, even and odd
