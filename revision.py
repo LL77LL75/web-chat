@@ -31,5 +31,7 @@ print(flatten(classes,List1d))
 # Sample output
 import random
 VeryLongList = []
+for i in range(1000):
+    
 # Odd - Smallest: 3, Largest: 91, Mean: 52.375, Length: 48
 # Even - Smallest: 8, Largest: 100, Mean: 49.0, Length: 52
