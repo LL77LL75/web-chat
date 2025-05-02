@@ -32,7 +32,7 @@ def intersect(class1,class2):
             Ans.append(i)
     return Ans
 blank_list = []
-print(intersect(awardees, classes, blank_list))
+print(intersect(awardees, classes))
 List1d = []
 print(flatten(classes,List1d))
 # Q5 Statistics
