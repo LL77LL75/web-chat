@@ -22,7 +22,7 @@ def flatten(List2d, List1d):
         for a in i:
             List1d.append(a)
     return a
-print(c)
+print(flatten(class))
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
 # 2. Partition them into 2 lists, even and odd
