@@ -20,6 +20,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        
     pygame.draw.rect(screen,gray, (0, 0, screen_width, screen_height))
     pygame.draw.rect(screen,white,(paddle1_x,paddle1_y,paddle_width,paddle_height))
     pygame.draw.rect(screen,white,(paddle2_x,paddle2_y,paddle_width,paddle_height))
