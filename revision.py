@@ -17,7 +17,10 @@ print(classes[0][0:2]+classes[1][0:2])
 # Define a function intersect(..., ...) that takes 2 1d lists and returns the common elements in a list
 # Using flatten and intersect, get the answer 
 
-
+def flatten(List2d, List1d):
+    for i in List2d:
+        for a in i:
+            List
 
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
