@@ -31,8 +31,8 @@ def intersect(class1,class2):
         if i in class2:
             Ans.append(i)
     return Ans
-print(intersect(awardees, classes))
-print(flatten(classes))
+print(intersect(awardees,flatten(classes)))
+
 
 # Q5 Statistics
 # 1. Generate 100 random numbers from 1 - 100 into a list.
