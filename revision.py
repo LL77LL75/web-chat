@@ -19,7 +19,7 @@ print(classes[0][0:2]+classes[1][0:2])
 List2d = [
     [1,2,3],
     [3,4,5],
-    []
+    [6,7,8]
 ]
 def flatten(List2d, List1d):
     for i in List2d:
