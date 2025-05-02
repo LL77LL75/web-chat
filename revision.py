@@ -17,12 +17,18 @@ print(classes[0][0:2]+classes[1][0:2])
 # Define a function flatten(...) that takes a 2d list and returns a 1d list
 # Define a function intersect(..., ...) that takes 2 1d lists and returns the common elements in a list
 # Using flatten and intersect, get the answer 
+awardees = ["Adam", "Esther", "Isaac"]
 
 def flatten(List2d, List1d):
     for i in List2d:
         for a in i:
             List1d.append(a)
     return List1d
+def intersect(class1,class2):
+    for i in class1:
+        for a in class2:
+            if i == a:
+                
 List1d = []
 print(flatten(classes,List1d))
 # Q5 Statistics
