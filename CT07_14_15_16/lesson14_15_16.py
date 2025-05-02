@@ -12,6 +12,8 @@ paddle_width = 20
 paddle_height = 100
 paddle1_x = 10
 paddle1_y = screen_height//2 - paddle_height // 2
+paddle2_x = 10
+paddle2_y = screen_height//2 - paddle_height // 2
 running = True
 while running:
     for event in pygame.event.get():
