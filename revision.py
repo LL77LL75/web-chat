@@ -28,8 +28,8 @@ def flatten(List2d):
 def intersect(class1,class2):
     for i in class1:
         if i in class2:
-            class3.append(i)
-    return class3
+            Ans.append(i)
+    return Ans
 blank_list = []
 print(intersect(awardees, classes, blank_list))
 List1d = []
