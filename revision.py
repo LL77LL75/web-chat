@@ -28,6 +28,7 @@ def intersect(class1,class2,class3):
     for i in class1:
         if i in class2:
             class3.append(i)
+intersect
 List1d = []
 print(flatten(classes,List1d))
 # Q5 Statistics
