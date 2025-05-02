@@ -18,7 +18,7 @@ print(classes[0][0:2]+classes[1][0:2])
 # Using flatten and intersect, get the answer 
 List2d = [
     [1,2,3],
-    [3,4,5],
+    [4,5,6],
     [6,7,8]
 ]
 def flatten(List2d, List1d):
