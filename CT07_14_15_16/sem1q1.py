@@ -9,4 +9,4 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 # Average daily sales for August is $6714.71
 maximum = max(daily_sales)
 index_num = max(daily_sales)
-print(str(daily_sales.index(maximum)) + " Agust has the best sales of $" + str(index_num))
+print(str(daily_sales.index(maximum)) + " Agust has the best sales of $" + str(maximum))
