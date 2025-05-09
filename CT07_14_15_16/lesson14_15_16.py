@@ -21,6 +21,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+    
     keys = pygame.key.get_pressed()
     if keys[pygame.K_w] and paddle1_y >0:
         paddle1_y-=5
