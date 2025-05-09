@@ -16,6 +16,8 @@ paddle1_y = screen_height//2 - paddle_height // 2
 paddle2_x = screen_width - paddle_width - 10
 paddle2_y = screen_height//2 - paddle_height // 2
 running = True
+if event.type == pygame.QUIT:
+            running = False
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
