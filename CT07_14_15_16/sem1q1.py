@@ -11,6 +11,6 @@ maximum = max(daily_sales)
 minimum = min(daily_sales)
 index_num_max = str(daily_sales.index(maximum))
 index_num_min = str(daily_sales.index(minimum))
-average = 
+average = M
 print(str(index_num_max) + " Agust has the best sales of $" + str(maximum))
 print(str(index_num_min) + " Agust has the best sales of $" + str(minimum))
