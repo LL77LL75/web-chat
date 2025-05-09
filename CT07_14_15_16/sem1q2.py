@@ -15,3 +15,5 @@ def is_even(num):
 for i in list1:
     if is_even(i):
         print(str(i) + " is even")
+    else:
+        print(str(i))
