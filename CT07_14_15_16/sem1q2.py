@@ -13,4 +13,5 @@ def is_even(num):
         return True
     return False
 for i in list1:
+    is_even(i)
     
