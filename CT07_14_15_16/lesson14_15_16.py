@@ -42,6 +42,7 @@ while running:
     pygame.draw.circle(screen,white,(ball_x,ball_y),ball_radius)
     ball_x += ball_dx
     ball_y += ball_dy
-    ball
+    if ball_y <= 0 or ball_y > screen_height:
+        ball_y 
     pygame.display.flip()
 pygame.quit()
