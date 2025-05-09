@@ -42,5 +42,6 @@ while running:
     pygame.draw.circle(screen,white,(ball_x,ball_y),ball_radius)
     ball_x += ball_dx
     ball_y += ball_dy
+    ball
     pygame.display.flip()
 pygame.quit()
