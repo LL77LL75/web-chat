@@ -31,7 +31,7 @@ while running:
         paddle1_y-=5
     if keys[pygame.K_s] and paddle1_y < screen_height - paddle_height:
         paddle2_y+=5
-    if keys[pygame.K_up] and paddle2_y >0:
+    if keys[pygame.K_UP] and paddle2_y >0:
         paddle2_y-=5
     if keys[pygame.K_DOWN] and paddle2_y < screen_height - paddle_height:
         paddle2_y+=5
