@@ -17,7 +17,9 @@ paddle2_x = screen_width - paddle_width - 10
 paddle2_y = screen_height//2 - paddle_height // 2
 running = True
 
-ball
+ball_radius = 10
+ball_x = screen_width//2
+ball_y = screen_height//2
 
 while running:
     for event in pygame.event.get():
