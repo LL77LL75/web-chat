@@ -36,15 +36,15 @@ while running:
         paddle2_y-=5
     if keys[pygame.K_DOWN] and paddle2_y < screen_height - paddle_height:
         paddle2_y+=5
-    screen.fill(gray)
-    pygame.draw.rect(screen,white,(paddle1_x,paddle1_y,paddle_width,paddle_height))
-    pygame.draw.rect(screen,white,(paddle2_x,paddle2_y,paddle_width,paddle_height))
-    pygame.draw.circle(screen,white,(ball_x,ball_y),ball_radius)
     ball_x += ball_dx
     ball_y += ball_dy
     if ball_y <= 0 or ball_y > screen_height:
         ball_y *= -1
     if ball_x <= 0 or ball_x > screen_width:
-        ball_y *= -1
+        ball_x *= -1
+    screen.fill(gray)
+    pygame.draw.rect(screen,white,(paddle1_x,paddle1_y,paddle_width,paddle_height))
+    pygame.draw.rect(screen,white,(paddle2_x,paddle2_y,paddle_width,paddle_height))
+    pygame.draw.circle(screen,white,(ball_x,ball_y),ball_radius)
     pygame.display.flip()
 pygame.quit()
