@@ -12,7 +12,6 @@ minimum = min(daily_sales)
 index_num_max = str(daily_sales.index(maximum)+1)
 index_num_min = str(daily_sales.index(minimum)+1)
 average = (sum(daily_sales)/len(daily_sales))
-
 print(str(index_num_max) + " Agust has the best sales of $" + str(maximum))
 print(str(index_num_min) + " Agust has the lowest sales of $" + str(minimum))
 print("Average daily sales for August is $" + str(average))
