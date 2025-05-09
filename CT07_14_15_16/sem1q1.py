@@ -10,4 +10,4 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 maximum = max(daily_sales)
 index_num = str(daily_sales.index(max(daily_sales)))
 print(str(index_num_max) + " Agust has the best sales of $" + str(maximum))
-print(str(index_num_min) + " Agust has the best sales of $" + str(maximum))
+print(str(index_num_min) + " Agust has the best sales of $" + str(minimum))
