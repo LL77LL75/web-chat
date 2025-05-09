@@ -44,7 +44,7 @@ while running:
     ball_y += ball_dy
     if ball_y <= 0 or ball_y > screen_height:
         ball_y *= -1
-    if ball_x <= 0 or ball_x > screen_height:
-        ball_x *= -1
+    if ball_x <= 0 or ball_x > screen_width:
+        ball_y *= -1
     pygame.display.flip()
 pygame.quit()
