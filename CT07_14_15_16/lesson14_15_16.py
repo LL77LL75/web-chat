@@ -40,5 +40,6 @@ while running:
     pygame.draw.rect(screen,white,(paddle1_x,paddle1_y,paddle_width,paddle_height))
     pygame.draw.rect(screen,white,(paddle2_x,paddle2_y,paddle_width,paddle_height))
     pygame.draw.circle(screen,white,(ball_x,ball_y),ball_radius)
+    ball_x = 
     pygame.display.flip()
 pygame.quit()
