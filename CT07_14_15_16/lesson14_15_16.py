@@ -20,8 +20,8 @@ running = True
 ball_radius = 10
 ball_x = screen_width//2
 ball_y = screen_height//2
-ball_x
-ba
+ball_dx = 1
+ball_dy = 1
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
