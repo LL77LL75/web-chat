@@ -72,3 +72,6 @@ for i in range(6):
     if evaluate_guess != cword:
         print("guess "+str(i+1)+" of 6:")
         print("evalulation >> " +evaluate_guess(getWord(words),cword))
+    else:
+        print("YOU WIN")
+        break
