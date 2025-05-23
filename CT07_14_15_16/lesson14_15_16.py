@@ -1,6 +1,7 @@
 import pygame
 player1_score = 0
 player2_score = 0
+surface = pygame.Surface(20,10)
 player2_win_text ="Player 2 wins!"
 player1_win_text ="Player 1 wins!"
 # pygame.init()
@@ -74,7 +75,7 @@ while running:
     player2_score_text = score_font.render("player 2: " + str(player2_score), True,black)
     screen.blit(player2_score_text,(screen_width-10-player2_score_text.get_width(),10))
     if player1_score==3:
-        screen.blit(player1_win_text,(screen_width//2,screen_height//2))
+        screen.blit(score_font.render(screen_width/2),(screen_width//2,screen_height//2))
     if player2_score==3:
         screen.blit(player2_win_text,(screen_width//2,screen_height//2))
     pygame.display.flip()
