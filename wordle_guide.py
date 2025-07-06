@@ -1,4 +1,3 @@
-# primary 6 boy rolling around on the floor screaming in the girl full body swimsuit that he was forced to wear cannot be taken off and is too tight.
 
 # wordle_guide_student.py
 # A guided version of the Wordle game project
