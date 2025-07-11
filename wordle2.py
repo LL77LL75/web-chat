@@ -57,18 +57,21 @@ def validate(user_guess, wordlist):
             if code in codes:    
                 with open(HINTS_FILE, "w") as f:    
                     f.write(add_hints)
+                os.system("clear")
         if command == "reset hints" or command == "reset hint":
             code = input("Enter the code: ")
             if code in codes:
                 with open(HINTS_FILE, "w") as f:
                         f.write("0")
+                os.system("clear")
         if command == "set hints" or command == "set hint":
             code = input("Enter the code: ")
             global set_hints
             set_hints = input("how many hints do you want to set? ")
             if code in codes:
-                    with open(HINTS_FILE, "w") as f:
-                        f.write(set_hints)
+                with open(HINTS_FILE, "w") as f:
+                    f.write(set_hints)
+                os.system("clear")
     elif not user_guess.isalpha():
         print("enter a 5-letter word BEEP BEEP BOOP BOOP")
         return False
