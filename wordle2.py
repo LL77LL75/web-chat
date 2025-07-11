@@ -15,7 +15,7 @@ with open("FiveLetterWords.csv","r") as f:
     words = content.split(",")
 import random
 cWord = random.choice(words)
-def evaluate_guess(user_guess, cWord, wordlist):
+def evaluate_guess(user_guess, cWord):
     eval = ""
     for i in range(5):
         if user_guess[i] == cWord[i]:
@@ -86,7 +86,7 @@ for i in range(6):
         print("game restarted")
     print("guess " + str(i+1) + " of 6")
     user_guess = get_guess(words)
-    evaluate_guess(user_guess, cWord, words)
+    evaluate_guess(user_guess, cWord)
     if user_guess == cWord:
             print("You win!")
             win = True
