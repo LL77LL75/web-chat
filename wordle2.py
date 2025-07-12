@@ -103,21 +103,33 @@ def play_game():
     global win
     win = False
     cWord = random.choice(words)
-for i in range(6):
-    if user_guess == "restart":
-        cWord = random.choice(words)
-        i = 0
-        print("game restarted")
-    print("guess " + str(i+1) + " of 6")
-    user_guess = get_guess(words)
-    evaluate_guess(user_guess, cWord)
-    if user_guess == cWord:
-            print("You win!")
-            win = True
-            hints += 1
-            with open(HINTS_FILE, "w") as f:
-                f.write(str(hints))
-            print("you have " + str(hints) + " hints now")
-            break
-if win == False:
-    print("You lose! The word was: " + cWord)
+while True:
+    for i in range(7):
+        if user_guess == "restart":
+            cWord = random.choice(words)
+            i = 0
+            print("game restarted")
+        print("guess " + str(i+1) + " of 6")
+        user_guess = get_guess(words)
+        evaluate_guess(user_guess, cWord)
+        if user_guess == cWord:
+                print("You win!")
+                win = True
+                hints += 1
+                with open(HINTS_FILE, "w") as f:
+                    f.write(str(hints))
+                print("you have " + str(hints) + " hints now")
+                break
+        if win == False:
+            print("You lose! The word was: " + cWord)
+    continue_game = input("Do you want to play again? (yes/no): ").lower()
+    if continue_game == "yes":
+        play_game()
+    if  continue_game != "yes":
+        print("PIGGY")
+        play_game()
+    user_guess = ""
+    win = False
+    hints = int(open(HINTS_FILE).read())
+    cWord = random.choice(words)
+    print("New game started. You have " + str(hints) + " hints.")
