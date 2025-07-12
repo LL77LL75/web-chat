@@ -85,6 +85,9 @@ def validate(user_guess, wordlist):
         return True
 
 def get_guess(wordlist):
+    global hints
+    global cWord
+    global user_guess
     while True:
         user_guess = input("your guess>> ").lower()
         if user_guess == "restart":
