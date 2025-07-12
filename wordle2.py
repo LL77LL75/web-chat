@@ -57,14 +57,14 @@ def validate(user_guess, wordlist):
             if code in codes:    
                 with open(HINTS_FILE, "w") as f:    
                     f.write(add_hints)
-                    os.system('cd hints.txt && git add . && git commit -m "Auto-commit" && git push origin main')
+                    os.system('git add hints.txt && git commit -m "Auto-commit" && git push origin main')
                 os.system("clear")
         if command == "reset hints" or command == "reset hint":
             code = input("Enter the code: ")
             if code in codes:
                 with open(HINTS_FILE, "w") as f:
                         f.write("0")
-                        os.system('cd hints.txt && git add . && git commit -m "Auto-commit" && git push origin main')
+                        os.system('git add hints.txt && git commit -m "Auto-commit" && git push origin main')
                 os.system("clear")
         if command == "set hints" or command == "set hint":
             code = input("Enter the code: ")
@@ -73,7 +73,7 @@ def validate(user_guess, wordlist):
             if code in codes:
                 with open(HINTS_FILE, "w") as f:
                     f.write(set_hints)
-                    os.system('cd hints.txt && git add . && git commit -m "Auto-commit" && git push origin main')
+                    os.system('git add hints.txt && git commit -m "Auto-commit" && git push origin main')
                 os.system("clear")
     elif not user_guess.isalpha():
         print("enter a 5-letter word BEEP BEEP BOOP BOOP")
@@ -103,7 +103,7 @@ def get_guess(wordlist):
             with open(HINTS_FILE, "w") as f:
                 f.write(str(hints))
                 print("You have " + str(hints) + " hints left.")
-                os.system('cd hints.txt && git add . && git commit -m "Auto-commit" && git push origin main')
+                os.system('git add hints.txt && git commit -m "Auto-commit" && git push origin main')
         if validate(user_guess, wordlist):
             return user_guess
 def play_game():
@@ -128,7 +128,7 @@ while True:
                 with open(HINTS_FILE, "w") as f:
                     f.write(str(hints))
                 print("you have " + str(hints) + " hints now")
-                os.system('cd hints.txt && git add . && git commit -m "Auto-commit" && git push origin main')
+                os.system('git add hints.txt && git commit -m "Auto-commit" && git push origin main')
                 break
         if win == False and i == 6:
             print("You lose! The word was: " + cWord)
