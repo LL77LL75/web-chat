@@ -91,7 +91,7 @@ def get_guess(wordlist):
             return "restart"
         elif user_guess == "help":
             print("enter a five-letter word, or type 'restart' to restart the game, or 'quit' to quit.")
-        if user_guess == "hint":
+        elif user_guess == "hint":
             print("the word contains the letter: " + random.choice(cWord))
             hints -= 1
             print("You have " + str(hints) + " hints left.")
@@ -120,7 +120,7 @@ while True:
                     f.write(str(hints))
                 print("you have " + str(hints) + " hints now")
                 break
-        if win == False:
+        if win == False and i == 6:
             print("You lose! The word was: " + cWord)
     continue_game = input("Do you want to play again? (yes/no): ").lower()
     if continue_game == "yes":
