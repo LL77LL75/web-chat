@@ -94,7 +94,7 @@ def get_guess(wordlist):
             return "restart"
         elif user_guess == "help":
             print("enter a five-letter word, or type 'restart' to restart the game, or 'quit' to quit.")
-        elif user_guess == "hint":
+        elif user_guess == "hint" and hints > 0:
             print("the word contains the letter: " + random.choice(cWord))
             hints -= 1
             print("You have " + str(hints) + " hints left.")
