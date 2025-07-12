@@ -1,4 +1,13 @@
 import os
+global font_size
+font_size = input("Enter desired font size for the terminal (e.g., 12, 14, 16): ")
+try:
+    font_size_int = int(font_size)
+    os.system(f'echo -e "\\033]50;SetFont=Monospace {font_size_int}\\007"')
+    os.system("clear")
+except ValueError:
+    print("Invalid font size. Using default.")
+
 import random
 
 HINTS_FILE = "hints.txt"
@@ -15,11 +24,11 @@ if not os.path.exists(HINTS_FILE):
 
 if not os.path.exists(authorisations_file):
     with open(authorisations_file, "w") as f:
-        f.write("")
+        f.write("error")
 
 if not os.path.exists(words_file):
     with open(words_file, "w") as f:
-        f.write("apple,berry,chess,delta,earth")  # Example words
+        print("error")
 
 with open(authorisations_file, "r") as f:
     global codes
@@ -50,7 +59,7 @@ def evaluate_guess(user_guess, cWord):
 
 def validate(user_guess, wordlist):
     if user_guess == "commands":
-        global command
+        global command,font_size
         command = input("Enter a command: ")
         if command == "add hint" or command == "add hints":
             code = input("Enter the code: ")
@@ -86,6 +95,16 @@ def validate(user_guess, wordlist):
                     f.write(set_hints)
                 sync_hints_file()
                 os.system("clear")
+        if command == "font size" or command == "fonts" or command == "font":
+            code = input("Enter the code: ")
+            font_size = input("Enter desired font size for the terminal (e.g., 12, 14, 16): ")
+            if code in codes:
+                try:
+                    font_size_int = int(font_size)
+                    os.system(f'echo -e "\\033]50;SetFont=Monospace {font_size_int}\\007"')
+                    os.system("clear")
+                except ValueError:
+                    print("Invalid font size. Using default.")
     elif not user_guess.isalpha():
         print("enter a 5-letter word BEEP BEEP BOOP BOOP")
         return False
