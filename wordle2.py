@@ -61,6 +61,15 @@ def validate(user_guess, wordlist):
                     f.write(add_hints)
                 sync_hints_file()
                 os.system("clear")
+        if command == "minus hint" or command == "minus hints":
+            code = input("Enter the code: ")
+            global minus_hints
+            minus_hints = input("how many hints do you want to remove? ")
+            if code in codes:
+                with open(HINTS_FILE, "w") as f:
+                    f.write(str(int(hints) - int(minus_hints)))
+                sync_hints_file()
+                os.system("clear")
         if command == "reset hints" or command == "reset hint":
             code = input("Enter the code: ")
             if code in codes:
