@@ -97,7 +97,6 @@ def get_guess(wordlist):
             print("You have " + str(hints) + " hints left.")
         if validate(user_guess, wordlist):
             return user_guess
-print(cWord)
 def play_game():
     global hints
     global cWord
