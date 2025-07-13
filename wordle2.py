@@ -11,7 +11,7 @@ except ValueError:
 import random
 
 HINTS_FILE = "hints.txt"
-authorisations_file = "authorisations_codes.txt"
+authorisations_file = "authorisation_codes.txt"
 words_file = "FiveLetterWords.csv"
 
 def sync_hints_file():
@@ -60,7 +60,13 @@ def evaluate_guess(user_guess, cWord):
 def validate(user_guess, wordlist):
     if user_guess == "commands":
         global command,font_size
-        command = input("Enter a command: ")
+        print("add hint or add hints to add hints ")
+        print("minus hint or minus hints to remove hints ")
+        print("reset hints or reset hint to reset hints ")
+        print("set hints or set hint to set hints ")
+        print("font size or fonts or font to change the font size ")
+        print("abort to exit commands")
+        command = input("Enter a command:")
         if command == "add hint" or command == "add hints":
             code = input("Enter the code: ")
             global add_hints
@@ -70,7 +76,7 @@ def validate(user_guess, wordlist):
                     f.write(add_hints)
                 sync_hints_file()
                 os.system("clear")
-        if command == "minus hint" or command == "minus hints":
+        elif command == "minus hint" or command == "minus hints":
             code = input("Enter the code: ")
             global minus_hints
             minus_hints = input("how many hints do you want to remove? ")
@@ -79,14 +85,14 @@ def validate(user_guess, wordlist):
                     f.write(str(int(hints) - int(minus_hints)))
                 sync_hints_file()
                 os.system("clear")
-        if command == "reset hints" or command == "reset hint":
+        elif command == "reset hints" or command == "reset hint":
             code = input("Enter the code: ")
             if code in codes:
                 with open(HINTS_FILE, "w") as f:
                     f.write("0")
                 sync_hints_file()
                 os.system("clear")
-        if command == "set hints" or command == "set hint":
+        elif command == "set hints" or command == "set hint":
             code = input("Enter the code: ")
             global set_hints
             set_hints = input("how many hints do you want to set? ")
@@ -95,7 +101,7 @@ def validate(user_guess, wordlist):
                     f.write(set_hints)
                 sync_hints_file()
                 os.system("clear")
-        if command == "font size" or command == "fonts" or command == "font":
+        elif command == "font size" or command == "fonts" or command == "font":
             code = input("Enter the code: ")
             font_size = input("Enter desired font size for the terminal (e.g., 12, 14, 16): ")
             if code in codes:
@@ -105,6 +111,12 @@ def validate(user_guess, wordlist):
                     os.system("clear")
                 except ValueError:
                     print("Invalid font size. Using default.")
+        elif command == "abort":
+            print("Aborting commands.")
+            return False
+        else:
+            print("Invalid command. Please try again.")
+            return False
     elif not user_guess.isalpha():
         print("enter a 5-letter word BEEP BEEP BOOP BOOP")
         return False
