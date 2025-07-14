@@ -114,6 +114,21 @@ def validate(user_guess, wordlist):
         elif command == "abort":
             print("Aborting commands.")
             return False
+        elif command == "add code" or command == "add codes":
+            code = input("Enter the code to add: ")
+            if code not in codes:
+                with open(authorisations_file, "a") as f:
+                    f.write("\n" + code)
+                print("Code added successfully.")
+                sync_hints_file()
+        elif command == "remove code" or command == "remove codes":
+            code = input("Enter the code to remove: ")
+            if code in codes:
+                codes.remove(code)
+                with open(authorisations_file, "w") as f:
+                    f.write("\n".join(codes))
+                print("Code removed successfully.")
+                sync_hints_file()
         else:
             print("Invalid command. Please try again.")
             return False
