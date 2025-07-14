@@ -1,3 +1,4 @@
+import time
 import os
 global font_size
 font_size = input("Enter desired font size for the terminal (e.g., 12, 14, 16): ")
@@ -121,6 +122,9 @@ def validate(user_guess, wordlist):
                     f.write("\n" + code)
                 print("Code added successfully.")
                 sync_hints_file()
+                print(codes)
+                time.sleep(10)
+                os.system("clear")
         elif command == "remove code" or command == "remove codes":
             code = input("Enter the code to remove: ")
             if code in codes:
@@ -129,6 +133,9 @@ def validate(user_guess, wordlist):
                     f.write("\n".join(codes))
                 print("Code removed successfully.")
                 sync_hints_file()
+                print(codes)
+                time.sleep(10)
+                os.system("clear")
         else:
             print("Invalid command. Please try again.")
             return False
