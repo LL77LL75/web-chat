@@ -5,6 +5,7 @@ win_list = ["Genius move!","Impressive!","You nailed it!","Well played!","Master
 a = 1
 # global font_size
 # font_size = input("Enter desired font size for the terminal (e.g., 12, 14, 16): ")
+
 # try:
 #     font_size_int = int(font_size)
 #     os.system(f'echo -e "\\033]50;SetFont=Monospace {font_size_int}\\007"')
@@ -154,6 +155,7 @@ def validate(user_guess, wordlist):
     else:
         return True
 
+
 def get_guess(wordlist):
     global hints
     global cWord
@@ -174,6 +176,13 @@ def get_guess(wordlist):
         if validate(user_guess, wordlist):
             return user_guess
 def play_game():
+    print(f"{"#"*30:^30}")
+    print(f"{"#"}{"Welcome to Wordle!":^28}{"#"}")
+    print(f"{"#"*30:^30}")
+    print("You have 6 guesses to find the 5-letter word.")
+    print("# = letter is not in the word")
+    print("? = letter is in the wrong position")
+    print("letter shown = letter is in the right position in the word")
     global hints
     global cWord
     global win
@@ -181,11 +190,13 @@ def play_game():
     win = False
     a = 1
     cWord = random.choice(words)
-
 print(f"{"#"*30:^30}")
 print(f"{"#"}{"Welcome to Wordle!":^28}{"#"}")
 print(f"{"#"*30:^30}")
 print("You have 6 guesses to find the 5-letter word.")
+print("# = letter is not in the word")
+print("? = letter is in the wrong position")
+print("letter shown = letter is in the right position in the word")
 while True:
     while a <= 6:
         if user_guess == "restart":
@@ -198,13 +209,13 @@ while True:
         evaluate_guess(user_guess, cWord)
         a+=1
         if user_guess == cWord:
-                print("You win! " + random.choice(win_list))
                 win = True
                 hints += 1
                 with open(HINTS_FILE, "w") as f:
                     f.write(str(hints))
                 sync_hints_file()
                 print("you have " + str(hints) + " hints now")
+                print("You win! " + random.choice(win_list))
                 break
         if win == False and a == 7:
             print(random.choice(blow_off_list) +" the word was "+ cWord)
@@ -225,11 +236,18 @@ while True:
     continue_game = input("Do you want to play again? (yes/no): ").lower()
     if continue_game == "yes":
         play_game()
-    if  continue_game != "yes":
-        print("PIGGY")
-        play_game()
+    if continue_game != "yes":
+        print("Thanks for playing!")
+        break
     user_guess = ""
     win = False
     hints = int(open(HINTS_FILE).read())
     cWord = random.choice(words)
+    print(f"{"#"*30:^30}")
+    print(f"{"#"}{"Welcome to Wordle!":^28}{"#"}")
+    print(f"{"#"*30:^30}")
+    print("You have 6 guesses to find the 5-letter word.")
+    print("# = letter is not in the word")
+    print("? = letter is in the wrong position")
+    print("letter shown = letter is in the right position in the word")
     print("New game started. You have " + str(hints) + " hints.")
