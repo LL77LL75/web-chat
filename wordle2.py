@@ -130,6 +130,7 @@ def validate(user_guess, wordlist):
                 time.sleep(10)
                 os.system("clear")
         elif command == "remove code" or command == "remove codes":
+            print(codes+ "\n" + "are the current codes")
             code = input("Enter the code to remove: ")
             if code in codes:
                 codes.remove(code)
@@ -143,6 +144,9 @@ def validate(user_guess, wordlist):
         else:
             print("Invalid command. Please try again.")
             return False
+    elif user_guess == "& C:/Users/lance/AppData/Local/Programs/Python/Python313/python.exe c:/Users/lance/Desktop/Lance-pythonthinker2/wordle2.py":
+        play_game()
+        return True
     elif not user_guess.isalpha():
         print("enter a 5-letter word BEEP BEEP BOOP BOOP")
         return False
