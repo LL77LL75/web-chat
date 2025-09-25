@@ -4,15 +4,13 @@ def binary(num):
     return bin(num)[2:]
     binary_string = binary(num)
 def num(binary_item):
-    def binary_to_number(binary_item):
-        binary_str = str(binary_item)
+    binary_str = str(binary_item)
     return int(binary_item, 2)
 
 message = input("Enter a message: ")
 import random
-
-def group(num):
-    binary_str = bin(num)[2:]
+def heck(num):
+    binary_str = bin(num)[2:] 
     numbers = []
     i = 0
     while i < len(binary_str):
@@ -20,7 +18,11 @@ def group(num):
         group = binary_str[i:i+group_size]
         if len(group) < group_size:
             group += "0" * (group_size - len(group))
-
         numbers.append(int(group, 2))
         i += group_size
     return numbers
+def unheck(num):
+    binary_str = ""
+    for number in num:
+        binary_str += bin(number)[2:]
+    return int(binary_str, 2)    
