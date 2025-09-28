@@ -1,91 +1,88 @@
-:root{
-  --bg:#0f1724;
-  --panel:#0b1220;
-  --muted:#9aa4b2;
-  --accent:#6ee7b7;
-  --accent-2:#60a5fa;
-  --glass: rgba(255,255,255,0.03);
-  --danger:#fb7185;
-  --radius:12px;
-  --mono: "SFMono-Regular", ui-monospace, Menlo, Monaco, "Roboto Mono", monospace;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #fff;
 }
 
-*{box-sizing:border-box}
-html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;background:linear-gradient(180deg,#051022 0%, #071226 100%);color:#e6eef6}
-
-.container{
-  display:flex;
-  gap:24px;
-  padding:24px;
-  height:calc(100vh - 48px);
-  align-items:stretch;
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  text-align: center;
 }
 
-/* Sidebar */
-.sidebar{
-  width:320px;
-  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border-radius:var(--radius);
-  padding:18px;
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-  box-shadow: 0 6px 30px rgba(2,6,23,0.6);
+h1, h2 {
+  margin-bottom: 20px;
 }
 
-.brand h1{margin:0;font-size:20px}
-.brand small{color:var(--muted)}
-
-.auth input, .cred-edit input, .row input {
-  width:100%;
-  padding:10px 12px;
-  margin:8px 0;
-  border-radius:10px;
-  border:1px solid rgba(255,255,255,0.04);
-  background:var(--glass);
-  color:inherit;
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
 }
 
-button{
-  background:linear-gradient(90deg,var(--accent),var(--accent-2));
-  border:none;color:#052233;padding:10px 12px;border-radius:10px;font-weight:600;cursor:pointer;
+input {
+  background: #fff;
+  color: #000;
 }
-button.danger{background:var(--danger);color:white}
-button:disabled{opacity:.6;cursor:not-allowed}
 
-.controls{display:flex;flex-direction:column;gap:10px}
-.hidden{display:none}
-
-.rooms-list{
-  background:rgba(255,255,255,0.02);
-  border-radius:10px;padding:8px;max-height:220px;overflow:auto;
+button {
+  background: #00c6ff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
 }
-.room-item{
-  display:flex;justify-content:space-between;align-items:center;padding:8px;border-radius:8px;margin-bottom:6px;background:linear-gradient(90deg, rgba(255,255,255,0.01), transparent);
+
+button:hover {
+  background: #0072ff;
 }
-.room-item button{padding:6px 10px;border-radius:8px;font-size:13px}
 
-/* Main chat */
-.main{flex:1;display:flex;flex-direction:column;border-radius:var(--radius);overflow:hidden;background:linear-gradient(180deg,#071226 0%, #061022 100%);box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-.chat-header{padding:18px;border-bottom:1px solid rgba(255,255,255,0.02)}
-.chat-header h2{margin:0;font-size:18px}
-.chat{flex:1;padding:20px;overflow:auto}
-.messages{display:flex;flex-direction:column;gap:10px}
-.msg{max-width:70%;padding:10px 12px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));}
-.msg.me{align-self:flex-end;background:linear-gradient(90deg,#052233, rgba(96,165,250,0.12));color:#cfe9ff}
-.msg .meta{font-size:12px;color:var(--muted);margin-bottom:6px}
+ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background: rgba(255,255,255,0.1);
+  border-radius: 5px;
+}
 
-.system{align-self:center;color:var(--muted);font-style:italic}
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 
-.chat-input{display:flex;gap:8px;padding:16px;border-top:1px solid rgba(255,255,255,0.02)}
-.chat-input input{flex:1;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit}
-.muted{color:var(--muted);font-size:13px}
-.credits{margin-top:auto;font-size:12px;color:var(--muted);}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0072ff;
+  padding: 10px;
+}
 
-/* small screens */
-@media (max-width:900px){
-  .container{flex-direction:column;height:auto}
-  .sidebar{width:100%;order:2}
-  .main{order:1;height:60vh}
+main {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: rgba(0,0,0,0.5);
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  background: #0072ff;
+}
+
+footer input {
+  flex: 1;
+  margin-right: 10px;
 }
