@@ -13,10 +13,10 @@ def enc(t):
     import random
     return [
         [
-            int((b[i:i + (g := random.choice([2, 3]))]).ljust(g, "0"), 2)
-            for g in [random.choice([2, 3])]  # choose g for this character
+            int((b[i:i + (gval_inner := random.choice([2, 3]))]).ljust(gval_inner, "0"), 2)
+            for gval in [gval_inner]  # choose gval for this character
             for b in [bin(c2n[ch])[2:]]       # assign b for this character
-            for i in range(0, len(b), g)
+            for i in range(0, len(b), gval)
         ]
         for ch in t.lower()
     ]
