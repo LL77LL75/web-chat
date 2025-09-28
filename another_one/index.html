@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chat Admin — Web UI</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="brand">
+        <h1>Chat Admin</h1>
+        <small>modern web front-end</small>
+      </div>
+
+      <section class="auth" id="auth-section">
+        <h3>Login</h3>
+        <input id="username" placeholder="Username" />
+        <input id="password" placeholder="Password" type="password" />
+        <button id="login-btn">Sign In</button>
+        <p id="auth-msg" class="muted"></p>
+      </section>
+
+      <section class="controls hidden" id="controls-section">
+        <div class="profile">
+          <div><strong id="me-username"></strong></div>
+          <div class="muted" id="me-rank"></div>
+        </div>
+
+        <div class="row">
+          <input id="room-code" placeholder="Room code (e.g. room-123)" />
+          <button id="create-room-btn">Create</button>
+        </div>
+        <div class="row">
+          <button id="refresh-rooms">Refresh Rooms</button>
+        </div>
+
+        <div class="rooms-list" id="rooms-list"></div>
+
+        <div class="cred-edit">
+          <h4>Edit Credentials</h4>
+          <input id="new-username" placeholder="New username" />
+          <input id="new-password" placeholder="New password" type="password" />
+          <button id="change-cred-btn">Save</button>
+          <p id="cred-msg" class="muted"></p>
+        </div>
+
+      </section>
+
+      <footer class="credits">
+        <small>Built using Flask + Socket.IO • Keep passwords safe!</small>
+      </footer>
+    </aside>
+
+    <main class="main">
+      <header class="chat-header">
+        <h2 id="room-title">No room selected</h2>
+        <div id="room-meta" class="muted"></div>
+      </header>
+
+      <section class="chat" id="chat-area">
+        <div id="messages" class="messages"></div>
+      </section>
+
+      <footer class="chat-input" id="chat-input">
+        <input id="message-text" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+        <button id="leave-btn" class="danger">Leave</button>
+      </footer>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
