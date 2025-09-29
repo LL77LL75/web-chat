@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Chat Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>Chat Dashboard</h2>
+      <div id="profile"></div>
+
+      <div class="create-area">
+        <input id="create-code" placeholder="New room code" />
+        <button id="start-room-btn">Start Room (admin)</button>
+      </div>
+
+      <div class="controls">
+        <button id="refresh-btn">Refresh Rooms</button>
+      </div>
+
+      <div class="rooms">
+        <h3>Rooms</h3>
+        <div id="rooms-list"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header>
+        <h3 id="selected-room-title">Select a room</h3>
+        <div id="room-actions" class="hidden">
+          <button id="join-selected-btn">Join</button>
+          <button id="close-room-btn" class="danger hidden">Close Room (admin)</button>
+        </div>
+      </header>
+
+      <section class="members">
+        <h4>Members</h4>
+        <div id="members-list" class="members-list muted">Select a room to see members</div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

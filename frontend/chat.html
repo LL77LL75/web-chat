@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Chat Room</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+</head>
+<body>
+  <div class="chat-wrapper">
+    <header class="chat-header">
+      <h2 id="room-name">Room</h2>
+      <div>
+        <button id="leave-btn">Leave</button>
+        <button id="close-room-admin-btn" class="danger hidden">Close Room (admin)</button>
+      </div>
+    </header>
+
+    <div id="chat-area" class="chat-area"></div>
+
+    <footer class="chat-footer">
+      <input id="chat-input" placeholder="Type message (use commands like ?/ban ...)" />
+      <button id="send-btn">Send</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

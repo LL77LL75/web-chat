@@ -1,0 +1,59 @@
+/* style.css - simple modern UI */
+:root{
+  --bg: #071223;
+  --panel: #0b1624;
+  --accent: #60a5fa;
+  --accent-2: #34d399;
+  --muted: #9fb3c8;
+  --danger: #fb7185;
+  --radius: 10px;
+  --glass: rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;background:linear-gradient(180deg,#041026,#072033);color:#e6eef6}
+button{cursor:pointer}
+.muted{color:var(--muted)}
+.small{font-size:12px}
+
+/* Auth card */
+.auth-card{width:360px;margin:80px auto;padding:24px;background:var(--panel);border-radius:12px;box-shadow:0 8px 40px rgba(2,6,23,0.6);text-align:center}
+.auth-card .form{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.auth-card input{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--glass);color:inherit}
+.auth-card button{padding:10px;border-radius:8px;border:none;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#04212b;font-weight:700}
+
+/* Layout */
+.layout{display:flex;gap:20px;padding:20px;height:calc(100vh - 40px)}
+.sidebar{width:320px;background:var(--panel);padding:16px;border-radius:12px;display:flex;flex-direction:column;gap:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+.sidebar h2{margin:0}
+.create-area{display:flex;gap:8px}
+.create-area input{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--glass)}
+.create-area button{padding:8px;border-radius:8px;border:none;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#04212b}
+.controls button{padding:8px;border-radius:8px;border:none;background:rgba(255,255,255,0.03);color:inherit}
+
+.rooms-list{display:flex;flex-direction:column;gap:8px;max-height:40vh;overflow:auto}
+.room-item{padding:8px;border-radius:8px;background:linear-gradient(90deg, rgba(255,255,255,0.01), transparent);display:flex;justify-content:space-between;align-items:center}
+.room-item button{padding:6px;border-radius:6px;border:none;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#052233}
+
+/* Main area */
+.main{flex:1;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));padding:16px;border-radius:12px;display:flex;flex-direction:column;gap:12px}
+header{display:flex;justify-content:space-between;align-items:center}
+.members-list{background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;min-height:200px;overflow:auto}
+.member-item{padding:8px;border-radius:8px;background:rgba(255,255,255,0.01);display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.member-item .meta{color:var(--muted);font-size:13px}
+
+/* Chat page */
+.chat-wrapper{max-width:900px;margin:20px auto;background:var(--panel);border-radius:12px;display:flex;flex-direction:column;overflow:hidden;height:80vh}
+.chat-header{display:flex;justify-content:space-between;align-items:center;padding:12px;background:linear-gradient(90deg, rgba(255,255,255,0.02), transparent)}
+.chat-area{flex:1;padding:12px;overflow:auto;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.003))}
+.chat-msg{padding:8px;border-radius:8px;background:rgba(255,255,255,0.02);margin-bottom:8px}
+.chat-footer{display:flex;gap:8px;padding:12px;background:linear-gradient(90deg, rgba(255,255,255,0.01), transparent)}
+.chat-footer input{flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--glass)}
+button.danger{background:var(--danger);color:white}
+.hidden{display:none}
+
+/* responsive */
+@media (max-width:900px){
+  .layout{flex-direction:column;height:auto}
+  .sidebar{width:100%}
+  .chat-wrapper{height:70vh}
+}

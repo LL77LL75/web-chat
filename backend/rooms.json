@@ -1,0 +1,8 @@
+{
+  "lobby": {
+    "hosts": ["admin"],
+    "members": ["admin"],
+    "bans": {"users": [], "by": [], "levels": []},
+    "mutes": {"users": [], "by": [], "levels": []}
+  }
+}
