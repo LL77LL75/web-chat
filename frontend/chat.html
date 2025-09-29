@@ -1,30 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="UTF-8">
   <title>Chat Room</title>
-  <link rel="stylesheet" href="style.css"/>
-  <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="chat-wrapper">
-    <header class="chat-header">
-      <h2 id="room-name">Room</h2>
-      <div>
-        <button id="leave-btn">Leave</button>
-        <button id="close-room-admin-btn" class="danger hidden">Close Room (admin)</button>
-      </div>
-    </header>
+  <div id="chat-box" class="chat-box"></div>
 
-    <div id="chat-area" class="chat-area"></div>
-
-    <footer class="chat-footer">
-      <input id="chat-input" placeholder="Type message (use commands like ?/ban ...)" />
-      <button id="send-btn">Send</button>
-    </footer>
+  <div class="input-area">
+    <input id="message" type="text" placeholder="Type message..." />
+    <button onclick="sendMessage()">Send</button>
   </div>
 
+  <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
