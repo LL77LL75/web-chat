@@ -17,9 +17,14 @@ def save_moves(moves):
             f.write(f"{move}\n")
 
 def print_board(board):
-    """Pretty-print the board."""
+    """Pretty-print board with numbers always visible."""
     for i in range(0, 9, 3):
-        print(" ".join(board[i:i+3]))
+        row = []
+        for j in range(3):
+            idx = i + j
+            cell = board[idx] if board[idx] != " " else str(idx+1)
+            row.append(cell)
+        print(" ".join(row))
     print()
 
 def check_win(board, symbol):
@@ -35,12 +40,12 @@ def ai_move(board, moves):
     """AI chooses move based on moves.txt file."""
     tried = set()
     while True:
-        if not moves:  # if file empty, choose any random
+        if not moves:  # if file empty, choose random
             move = random.randint(1, 9)
         else:
             move = random.choice(moves)
-        if move in tried:  # already tried this invalid move
-            if len(tried) == 9:  # no moves left
+        if move in tried:
+            if len(tried) == 9:
                 return None
             continue
         if board[move-1] == " ":
@@ -53,8 +58,8 @@ def main():
     board = [" "] * 9
     ai_moves_this_game = []
 
-    print("Tic-Tac-Toe")
-    print_board([str(i+1) for i in range(9)])
+    print("Tic-Tac-Toe (You = X, AI = O)")
+    print_board(board)
 
     current = "X"  # player always X, AI always O
 
@@ -90,12 +95,12 @@ def main():
                 print("You win!")
                 # Remove AI moves from file
                 moves = [m for m in moves if m not in ai_moves_this_game]
-                save_moves(moves)
+                save_moves(moves)  # auto commit
             else:
                 print("AI wins!")
                 # Add final move 3 times
                 moves.extend([move] * 3)
-                save_moves(moves)
+                save_moves(moves)  # auto commit
             break
 
         # Check draw
