@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Application</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Login Screen -->
+    <div id="login-screen">
+      <input type="text" id="username" placeholder="Enter your username" />
+      <button id="login-btn">Login</button>
+    </div>
+
+    <!-- Room Selection -->
+    <div id="room-selection" class="hidden">
+      <h2>Select a Room</h2>
+      <div id="rooms-list"></div>
+    </div>
+
+    <!-- Chat Interface -->
+    <div id="chat-interface" class="hidden">
+      <div id="chat-header">
+        <span id="room-name"></span>
+        <button id="logout-btn">Logout</button>
+      </div>
+      <div id="chat-area"></div>
+      <div id="message-input">
+        <textarea id="message-text" placeholder="Type a message..."></textarea>
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+
+    <!-- Admin Panel -->
+    <div id="admin-panel" class="hidden">
+      <h3>Admin Panel</h3>
+      <div id="user-list"></div>
+      <div id="mute-ban-panel">
+        <h4>Muted Users</h4>
+        <ul id="muted-users"></ul>
+        <h4>Banned Users</h4>
+        <ul id="banned-users"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
